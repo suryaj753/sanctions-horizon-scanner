@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Clean, neutral, light — white/neutral-50 base with a single muted teal
+   accent. Deliberately plain: this is an operational reading tool for a
+   bank compliance team, not a dashboard competing for attention. Tailwind
+   v4 scans JSX/TS for literal classes; coloured variants live in
+   lib/uiTokens.ts. */
+
+:root {
+  color-scheme: light;
+}
+
+:focus-visible {
+  outline: 2px solid rgba(13, 148, 136, 0.55);
+  outline-offset: 2px;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #171717;
+  background: #fafafa;
+}
+
+::selection {
+  background: rgba(13, 148, 136, 0.18);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d4d4d4 transparent;
+}
+*::-webkit-scrollbar { width: 9px; height: 9px; }
+*::-webkit-scrollbar-thumb { background: #d4d4d4; border-radius: 9999px; }
+*::-webkit-scrollbar-track { background: transparent; }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.rise { animation: rise 0.3s cubic-bezier(0.22, 1, 0.36, 1) both; }
