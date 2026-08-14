@@ -1,4 +1,196 @@
 {
   "lastUpdated": "2026-08-14",
-  "items": []
+  "items": [
+    {
+      "id": "uk-russia-designations-2026-08-06",
+      "regime": "UK",
+      "category": "action",
+      "title": "UK adds 13 designations and 6 specifications under the Russia sanctions regime",
+      "summary": "On 6 August 2026 the UK Sanctions List was updated with 13 new designations and 6 new specifications under the Russia regime, the latest in a steady run of additions through July and August.",
+      "whyItMatters": "Banks with a UK nexus should refresh sanctions screening lists to capture the new Russia-regime designations and specifications promptly, to avoid processing transactions for newly listed persons or entities.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-08-06",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia",
+      "confidence": "high",
+      "tags": ["russia", "designations", "uk-sanctions-list"],
+      "sources": [
+        { "name": "UK Sanctions List", "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list", "kind": "primary" }
+      ]
+    },
+    {
+      "id": "uk-petrofac-hmrc-penalty-2026-06-29",
+      "regime": "UK",
+      "category": "action",
+      "title": "HMRC names and fines Petrofac Facilities Management for Russia sanctions breaches",
+      "summary": "HMRC publicly named Petrofac Facilities Management Limited (PFML) on 29 June 2026 after it accepted a £569,157 compound settlement for supplying sanctioned industrial goods and technical assistance to Russia-connected individuals during 2022-2023, while winding down its Russian operations. It is the first time HMRC has publicly named a firm accepting this type of settlement.",
+      "whyItMatters": "The public naming signals a new HMRC enforcement posture for strategic-export and sanctions violations; banks financing or servicing exporters winding down Russia-exposed operations should reassess due-diligence expectations around self-reporting and technical-assistance exposure.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-06-29",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia",
+      "confidence": "high",
+      "tags": ["russia", "enforcement", "hmrc", "export-control"],
+      "sources": [
+        { "name": "HMRC: Energy firm named after £500,000 Russia sanctions settlement", "url": "https://www.gov.uk/government/news/energy-firm-named-after-500000-russia-sanctions-settlement", "kind": "primary" }
+      ]
+    },
+    {
+      "id": "uk-ofsi-lukoil-licences-2026-08",
+      "regime": "UK",
+      "category": "action",
+      "title": "OFSI's Lukoil wind-down licences approach expiry in August 2026",
+      "summary": "OFSI's general licences permitting continued business with Lukoil International entities (INT/2025/8031092, extended to 25 August 2026) and Lukoil Bulgaria entities (INT/2025/7895596, extended to 13 August 2026) are both due to lapse this month; the international-entities licence was also amended to remove the frozen-account payment restriction in paragraph 4.2. (Confidence: medium — corroborated via legal-sector reporting on the licence text rather than a direct read of the licence document itself.)",
+      "whyItMatters": "Banks with counterparties relying on these licences to continue Lukoil-linked business need to confirm wind-down completion or a further extension before the licences lapse, or transactions risk falling outside authorised activity.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-08-12",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia — Lukoil wind-down",
+      "confidence": "medium",
+      "tags": ["russia", "lukoil", "general-licence", "wind-down"],
+      "sources": [
+        { "name": "OFSI General Licences", "url": "https://www.gov.uk/government/collections/ofsi-general-licences", "kind": "primary" }
+      ]
+    },
+    {
+      "id": "uk-otsi-banknotes-guidance-2026-08-03",
+      "regime": "UK",
+      "category": "regulatory-update",
+      "title": "OTSI publishes guidance on banknote sanctions with Russia and Belarus",
+      "summary": "On 3 August 2026 OTSI published guidance on complying with sanctions relating to banknotes, covering the prohibition on providing banknotes to persons connected with Russia or Belarus (including postal and hand-carried transfers), with a £10,000 personal-travel exception.",
+      "whyItMatters": "Retail and private banking teams handling customer cash withdrawals or currency exchange tied to travel to Russia or Belarus should align controls with the new £10,000 personal-use threshold and the guidance's due-diligence expectations.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-08-03",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia / Belarus",
+      "confidence": "high",
+      "tags": ["russia", "belarus", "banknotes", "trade-sanctions", "otsi"],
+      "sources": [
+        { "name": "OTSI: Complying with sanctions relating to banknotes", "url": "https://www.gov.uk/government/publications/complying-with-sanctions-relating-to-banknotes/complying-with-sanctions-relating-to-banknotes", "kind": "primary" }
+      ]
+    },
+    {
+      "id": "us-ofac-iran-designations-2026-08-07",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC designates Iran-linked individuals and issues amended Iran FAQ",
+      "summary": "On 7 August 2026 OFAC added Iran-related and counter-terrorism designations to the SDN list, including Saeed Ghasempour and Amir Hendi, removed certain counter-narcotics designations, and issued an amended Iran-related FAQ (FAQ 1257). (Confidence: medium — the full designee list and the FAQ's substance were not independently confirmed beyond the two individuals identified.)",
+      "whyItMatters": "US-nexus banks should refresh OFAC screening lists for the new Iran-related SDN entries and review amended FAQ 1257 for any change to permitted-activity guidance.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-08-07",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran",
+      "confidence": "medium",
+      "tags": ["iran", "sdn", "designations", "counter-terrorism"],
+      "sources": [
+        { "name": "OFAC Recent Actions", "url": "https://ofac.treasury.gov/recent-actions", "kind": "primary" }
+      ]
+    },
+    {
+      "id": "us-ofac-crypto-iran-irgc-2026-08-07",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC sanctions crypto exchanges and a front-company network tied to Iran's IRGC",
+      "summary": "On 7 August 2026 OFAC sanctioned seven entities and five individuals, including two UAE-based exchange houses, for helping Iran's banking system move hundreds of millions of dollars and supporting the IRGC, including alleged support for Shahr Bank's efforts to repatriate oil-sale revenue.",
+      "whyItMatters": "Digital-asset and correspondent-banking teams should screen counterparties against the newly designated exchange houses and front companies, and reassess exposure to UAE-based crypto exchanges used in Iran-linked flows.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-08-07",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran",
+      "confidence": "high",
+      "tags": ["iran", "irgc", "crypto", "digital-assets", "sdn"],
+      "sources": [
+        { "name": "US Treasury: Treasury Sanctions Crypto Exchanges Funding Iran's IRGC and Enabling Illicit Finance", "url": "https://home.treasury.gov/news/press-releases/sb0598", "kind": "primary" }
+      ]
+    },
+    {
+      "id": "us-ofac-modernization-round2-2026-07-27",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC removes 84 SDN entries and updates 22 more in second modernization round",
+      "summary": "On 27 July 2026 OFAC completed the second round of its sanctions-list modernization initiative (announced by the Treasury Secretary in May 2026), removing 84 individuals and entities, primarily deceased persons, defunct entities and decades-old listings, improving identifying data on 22 entries, and consolidating 18 duplicate entries.",
+      "whyItMatters": "Screening teams should reconcile watchlists against the delisted and consolidated entries so false-positive alerts on outdated SDN records are cleared, and confirm no active relationships were incorrectly blocked against superseded entries.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-07-27",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "OFAC list maintenance",
+      "confidence": "high",
+      "tags": ["ofac", "delisting", "sdn", "list-maintenance"],
+      "sources": [
+        { "name": "US Treasury: Treasury Announces Second Round of Sanctions Removals, Updates in Modernization Initiative", "url": "https://home.treasury.gov/news/press-releases/sb0578", "kind": "primary" }
+      ]
+    },
+    {
+      "id": "us-ofac-rice-lake-settlement-2026-08-12",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC settles Iran sanctions case with Rice Lake Weighing Systems for $60,764",
+      "summary": "On 12 August 2026 OFAC announced a $60,764 settlement with Wisconsin-based Rice Lake Weighing Systems, Inc. over eight apparent violations: its Italian subsidiary, Dini Argeo S.r.l., exported weighing equipment to a UAE distributor between July 2019 and November 2021 knowing the goods would be re-exported to an end-user in Iran.",
+      "whyItMatters": "A reminder that OFAC enforcement reaches indirect re-export exposure through foreign subsidiaries; trade-finance teams should verify end-use and re-export controls for goods routed through UAE intermediaries toward Iran.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-08-12",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran",
+      "confidence": "high",
+      "tags": ["iran", "enforcement", "settlement", "re-export"],
+      "sources": [
+        { "name": "OFAC: Settlement Agreement with Rice Lake Weighing Systems, Inc.", "url": "https://ofac.treasury.gov/recent-actions/20260812", "kind": "primary" }
+      ]
+    },
+    {
+      "id": "eu-21st-sanctions-package-2026-07-23",
+      "regime": "EU",
+      "category": "geopolitical",
+      "title": "EU adopts 21st sanctions package against Russia, its largest listing round yet",
+      "summary": "On 23 July 2026 the Council of the EU adopted its 21st sanctions package against Russia: 218 additional listings (48 individuals, 170 entities), the highest number since the war began. From 13 August 2026, transaction bans extend to 33 more Russian financial institutions plus banks in Kyrgyzstan, Mongolia and India; from 25 August 2026, Russian nationals are barred from sitting on the boards of any EU crypto-asset services business. The package also expands energy, trade and military-industrial restrictions.",
+      "whyItMatters": "The 13 and 25 August transaction-ban and crypto-board effective dates give banks a narrow window to unwind or restructure relationships with the newly listed financial institutions and crypto-asset businesses before the prohibitions take effect.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-07-23",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia",
+      "confidence": "high",
+      "tags": ["russia", "eu-sanctions", "crypto", "financial-institutions", "21st-package"],
+      "sources": [
+        { "name": "European Commission: EU adopts 21st package of sanctions against Russia", "url": "https://finance.ec.europa.eu/news/eu-adopts-21th-package-sanctions-against-russia-2026-07-23_en", "kind": "primary" },
+        { "name": "Council of the EU: 21st package of sanctions", "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/07/23/21st-package-of-sanctions-eu-hits-russian-energy-financial-services-and-crypto-hard/", "kind": "primary" }
+      ]
+    },
+    {
+      "id": "un-1267-committee-amendment-2026-08-13",
+      "regime": "UN",
+      "category": "action",
+      "title": "UN 1267 Committee amends the ISIL (Da'esh) and Al-Qaida Sanctions List",
+      "summary": "On 13 August 2026 the Security Council Committee established pursuant to resolutions 1267 (1999), 1989 (2011) and 2253 (2015) enacted amendments to entries on the ISIL (Da'esh) and Al-Qaida Sanctions List (asset freeze, travel ban and arms embargo). (Confidence: low — which specific entries were amended could not be confirmed: main.un.org and press.un.org both blocked automated access during this run, so this item rests on secondary search corroboration rather than the primary notice.)",
+      "whyItMatters": "Any amendment to the 1267 list can affect identifying details on existing screening matches; banks should pull the current ISIL/Al-Qaida list rather than rely on cached data until the specific change is confirmed.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-08-13",
+      "addedAt": "2026-08-14",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "ISIL (Da'esh) and Al-Qaida",
+      "confidence": "low",
+      "tags": ["un", "1267-committee", "isil", "al-qaida"],
+      "sources": [
+        { "name": "UN Security Council: Sanctions List Materials (1267 Committee)", "url": "https://main.un.org/securitycouncil/en/sanctions/1267/aq_sanctions_list", "kind": "primary" }
+      ]
+    }
+  ]
 }
