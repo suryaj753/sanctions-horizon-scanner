@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14",
+  "lastUpdated": "2026-09-22",
   "items": [
     {
       "id": "uk-russia-designations-2026-08-06",
@@ -15,9 +15,17 @@
       "status": "published",
       "programme": "Russia",
       "confidence": "high",
-      "tags": ["russia", "designations", "uk-sanctions-list"],
+      "tags": [
+        "russia",
+        "designations",
+        "uk-sanctions-list"
+      ],
       "sources": [
-        { "name": "UK Sanctions List", "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list", "kind": "primary" }
+        {
+          "name": "UK Sanctions List",
+          "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list",
+          "kind": "primary"
+        }
       ]
     },
     {
@@ -34,9 +42,21 @@
       "status": "published",
       "programme": "Russia",
       "confidence": "high",
-      "tags": ["russia", "enforcement", "hmrc", "export-control"],
+      "entities": [
+        "Petrofac Facilities Management Limited (PFML)"
+      ],
+      "tags": [
+        "russia",
+        "enforcement",
+        "hmrc",
+        "export-control"
+      ],
       "sources": [
-        { "name": "HMRC: Energy firm named after £500,000 Russia sanctions settlement", "url": "https://www.gov.uk/government/news/energy-firm-named-after-500000-russia-sanctions-settlement", "kind": "primary" }
+        {
+          "name": "HMRC: Energy firm named after £500,000 Russia sanctions settlement",
+          "url": "https://www.gov.uk/government/news/energy-firm-named-after-500000-russia-sanctions-settlement",
+          "kind": "primary"
+        }
       ]
     },
     {
@@ -53,9 +73,22 @@
       "status": "published",
       "programme": "Russia — Lukoil wind-down",
       "confidence": "medium",
-      "tags": ["russia", "lukoil", "general-licence", "wind-down"],
+      "entities": [
+        "Lukoil International GmbH",
+        "Lukoil Bulgaria"
+      ],
+      "tags": [
+        "russia",
+        "lukoil",
+        "general-licence",
+        "wind-down"
+      ],
       "sources": [
-        { "name": "OFSI General Licences", "url": "https://www.gov.uk/government/collections/ofsi-general-licences", "kind": "primary" }
+        {
+          "name": "OFSI General Licences",
+          "url": "https://www.gov.uk/government/collections/ofsi-general-licences",
+          "kind": "primary"
+        }
       ]
     },
     {
@@ -72,9 +105,19 @@
       "status": "published",
       "programme": "Russia / Belarus",
       "confidence": "high",
-      "tags": ["russia", "belarus", "banknotes", "trade-sanctions", "otsi"],
+      "tags": [
+        "russia",
+        "belarus",
+        "banknotes",
+        "trade-sanctions",
+        "otsi"
+      ],
       "sources": [
-        { "name": "OTSI: Complying with sanctions relating to banknotes", "url": "https://www.gov.uk/government/publications/complying-with-sanctions-relating-to-banknotes/complying-with-sanctions-relating-to-banknotes", "kind": "primary" }
+        {
+          "name": "OTSI: Complying with sanctions relating to banknotes",
+          "url": "https://www.gov.uk/government/publications/complying-with-sanctions-relating-to-banknotes/complying-with-sanctions-relating-to-banknotes",
+          "kind": "primary"
+        }
       ]
     },
     {
@@ -91,9 +134,22 @@
       "status": "published",
       "programme": "Iran",
       "confidence": "medium",
-      "tags": ["iran", "sdn", "designations", "counter-terrorism"],
+      "entities": [
+        "Saeed Ghasempour (also known as Sa'id Ghasempur)",
+        "Amir Hendi"
+      ],
+      "tags": [
+        "iran",
+        "sdn",
+        "designations",
+        "counter-terrorism"
+      ],
       "sources": [
-        { "name": "OFAC Recent Actions", "url": "https://ofac.treasury.gov/recent-actions", "kind": "primary" }
+        {
+          "name": "OFAC Recent Actions",
+          "url": "https://ofac.treasury.gov/recent-actions",
+          "kind": "primary"
+        }
       ]
     },
     {
@@ -110,9 +166,19 @@
       "status": "published",
       "programme": "Iran",
       "confidence": "high",
-      "tags": ["iran", "irgc", "crypto", "digital-assets", "sdn"],
+      "tags": [
+        "iran",
+        "irgc",
+        "crypto",
+        "digital-assets",
+        "sdn"
+      ],
       "sources": [
-        { "name": "US Treasury: Treasury Sanctions Crypto Exchanges Funding Iran's IRGC and Enabling Illicit Finance", "url": "https://home.treasury.gov/news/press-releases/sb0598", "kind": "primary" }
+        {
+          "name": "US Treasury: Treasury Sanctions Crypto Exchanges Funding Iran's IRGC and Enabling Illicit Finance",
+          "url": "https://home.treasury.gov/news/press-releases/sb0598",
+          "kind": "primary"
+        }
       ]
     },
     {
@@ -129,9 +195,18 @@
       "status": "published",
       "programme": "OFAC list maintenance",
       "confidence": "high",
-      "tags": ["ofac", "delisting", "sdn", "list-maintenance"],
+      "tags": [
+        "ofac",
+        "delisting",
+        "sdn",
+        "list-maintenance"
+      ],
       "sources": [
-        { "name": "US Treasury: Treasury Announces Second Round of Sanctions Removals, Updates in Modernization Initiative", "url": "https://home.treasury.gov/news/press-releases/sb0578", "kind": "primary" }
+        {
+          "name": "US Treasury: Treasury Announces Second Round of Sanctions Removals, Updates in Modernization Initiative",
+          "url": "https://home.treasury.gov/news/press-releases/sb0578",
+          "kind": "primary"
+        }
       ]
     },
     {
@@ -148,9 +223,22 @@
       "status": "published",
       "programme": "Iran",
       "confidence": "high",
-      "tags": ["iran", "enforcement", "settlement", "re-export"],
+      "entities": [
+        "Rice Lake Weighing Systems, Inc.",
+        "Dini Argeo S.r.l."
+      ],
+      "tags": [
+        "iran",
+        "enforcement",
+        "settlement",
+        "re-export"
+      ],
       "sources": [
-        { "name": "OFAC: Settlement Agreement with Rice Lake Weighing Systems, Inc.", "url": "https://ofac.treasury.gov/recent-actions/20260812", "kind": "primary" }
+        {
+          "name": "OFAC: Settlement Agreement with Rice Lake Weighing Systems, Inc.",
+          "url": "https://ofac.treasury.gov/recent-actions/20260812",
+          "kind": "primary"
+        }
       ]
     },
     {
@@ -167,10 +255,24 @@
       "status": "published",
       "programme": "Russia",
       "confidence": "high",
-      "tags": ["russia", "eu-sanctions", "crypto", "financial-institutions", "21st-package"],
+      "tags": [
+        "russia",
+        "eu-sanctions",
+        "crypto",
+        "financial-institutions",
+        "21st-package"
+      ],
       "sources": [
-        { "name": "European Commission: EU adopts 21st package of sanctions against Russia", "url": "https://finance.ec.europa.eu/news/eu-adopts-21th-package-sanctions-against-russia-2026-07-23_en", "kind": "primary" },
-        { "name": "Council of the EU: 21st package of sanctions", "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/07/23/21st-package-of-sanctions-eu-hits-russian-energy-financial-services-and-crypto-hard/", "kind": "primary" }
+        {
+          "name": "European Commission: EU adopts 21st package of sanctions against Russia",
+          "url": "https://finance.ec.europa.eu/news/eu-adopts-21th-package-sanctions-against-russia-2026-07-23_en",
+          "kind": "primary"
+        },
+        {
+          "name": "Council of the EU: 21st package of sanctions",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/07/23/21st-package-of-sanctions-eu-hits-russian-energy-financial-services-and-crypto-hard/",
+          "kind": "primary"
+        }
       ]
     },
     {
@@ -187,9 +289,644 @@
       "status": "published",
       "programme": "ISIL (Da'esh) and Al-Qaida",
       "confidence": "low",
-      "tags": ["un", "1267-committee", "isil", "al-qaida"],
+      "tags": [
+        "un",
+        "1267-committee",
+        "isil",
+        "al-qaida"
+      ],
       "sources": [
-        { "name": "UN Security Council: Sanctions List Materials (1267 Committee)", "url": "https://main.un.org/securitycouncil/en/sanctions/1267/aq_sanctions_list", "kind": "primary" }
+        {
+          "name": "UN Security Council: Sanctions List Materials (1267 Committee)",
+          "url": "https://main.un.org/securitycouncil/en/sanctions/1267/aq_sanctions_list",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-global-human-rights-ct-designations-2026-09-08",
+      "regime": "UK",
+      "category": "action",
+      "title": "UK adds 6 new designations under the Global Human Rights and Counter-Terrorism regimes",
+      "summary": "On 8 August 2026 the UK Sanctions List was updated with 5 new designations under the Global Human Rights regime and 1 new designation under the Counter-Terrorism (International) regime, according to the list's published change log. The Global Human Rights regime entries were further varied on 9 September and corrected on 10 September; the change log does not name the individuals or entities involved.",
+      "whyItMatters": "Banks should refresh Global Human Rights and Counter-Terrorism (International) regime screening lists to capture the new designations and the follow-up variation/correction made in the days after.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-09-08",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Global Human Rights / Counter-Terrorism (International)",
+      "confidence": "medium",
+      "tags": [
+        "global-human-rights",
+        "counter-terrorism",
+        "designations",
+        "uk-sanctions-list"
+      ],
+      "sources": [
+        {
+          "name": "UK Sanctions List",
+          "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-isil-alqaeda-variations-2026-08-20",
+      "regime": "UK",
+      "category": "action",
+      "title": "UK amends 21 entries on the ISIL (Da'esh) and Al-Qaeda sanctions list",
+      "summary": "On 20 August 2026 the UK Sanctions List recorded 21 variations to entries under the ISIL (Da'esh) and Al-Qaeda regime, the largest of several amendments to this regime in the period — 4 further variations were made on 17 August, 1 on 7 September, and 1 correction on 10 September. The published change log gives counts only, not which entries or individuals were affected. (Confidence: medium — the specific entries changed were not independently confirmed beyond the change-log counts.)",
+      "whyItMatters": "Any amendment to this regime's entries can affect identifying details on existing screening matches; banks should pull the current ISIL/Al-Qaeda list rather than rely on cached data.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-08-20",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "ISIL (Da'esh) and Al-Qaeda",
+      "confidence": "medium",
+      "tags": [
+        "isil",
+        "al-qaeda",
+        "designations",
+        "uk-sanctions-list"
+      ],
+      "sources": [
+        {
+          "name": "UK Sanctions List",
+          "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-russia-afghanistan-amendments-2026-09-21",
+      "regime": "UK",
+      "category": "action",
+      "title": "UK makes further Russia regime amendments, including one revocation, plus minor Afghanistan regime changes",
+      "summary": "Between 27 August and 21 September 2026 the UK Sanctions List recorded a further run of amendments: 2 variations under the Afghanistan regime (27 August), 1 more (28 August), 4 amendments under the Russia regime (2 September), 1 amendment (3 September), 1 variation (10 September), 1 variation (11 September), and 1 revocation — a de-listing — under the Russia regime (21 September). The published change log gives counts only, not which entries or individuals were affected.",
+      "whyItMatters": "The 21 September revocation is a de-listing that should be reflected in screening records promptly; the other entries are amendments to existing listings that may affect identifying details on current screening matches.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-09-21",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia; Afghanistan",
+      "confidence": "medium",
+      "tags": [
+        "russia",
+        "afghanistan",
+        "delisting",
+        "uk-sanctions-list"
+      ],
+      "sources": [
+        {
+          "name": "UK Sanctions List",
+          "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-otsi-annual-review-2026-08-28",
+      "regime": "UK",
+      "category": "regulatory-update",
+      "title": "OTSI publishes its Annual Review for 2025-26",
+      "summary": "On 28 August 2026 the Office of Trade Sanctions Implementation (OTSI) published its Annual Review for the 2025-26 financial year, covering compliance engagement, licensing and enforcement activity, with the Russia sanctions regime as a key focus. The review highlights the implementation of new Sanctions End-Use Controls in May 2026 and the expansion of OTSI's licensing remit in April 2026 to cover exports of sanctioned goods and ancillary services, in addition to its existing remit over sanctioned services.",
+      "whyItMatters": "OTSI's expanded remit — now covering licensing for sanctioned goods exports, not just services — and the new End-Use Controls change what trade-sanctions compliance teams need to screen and license for; worth reviewing current processes against the updated scope.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-08-28",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Trade sanctions — OTSI",
+      "confidence": "high",
+      "tags": [
+        "otsi",
+        "annual-review",
+        "trade-sanctions",
+        "end-use-controls"
+      ],
+      "sources": [
+        {
+          "name": "OTSI Blog: Annual Review 2025-2026",
+          "url": "https://otsi.blog.gov.uk/2026/08/28/otsi-blog-post-annual-review-2025-2026/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-iran-sanctions-amendment-si-2026-09-07",
+      "regime": "UK",
+      "category": "regulatory-update",
+      "title": "UK lays major Iran sanctions amendment regulations, in force 29 September 2026",
+      "summary": "The Iran (Sanctions) (Amendment) Regulations 2026 (S.I. 2026/983), made on 7 September 2026, substantially expand the UK's Iran sanctions regime and come into force on 29 September 2026. New provisions include financial-sector prohibitions on lending, correspondent banking, insurance and dealing in Iranian government-guaranteed bonds issued after 8 September 2026; new trade prohibitions on gold, precious metals, diamonds, energy-related goods and technology, and sectoral software; new banknote-export and oil-tanker-related prohibitions; and new ship and aircraft measures including UK port-entry and landing restrictions for Iran-connected vessels and aircraft.",
+      "whyItMatters": "This is a broad expansion of the Iran sanctions framework spanning financial services, trade and shipping/aviation; banks should review Iran-connected lending, correspondent banking, insurance, bond, trade-finance and vessel-related exposure against the new prohibitions before they take effect on 29 September 2026.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-09-07",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran",
+      "confidence": "high",
+      "tags": [
+        "iran",
+        "statutory-instrument",
+        "trade-sanctions",
+        "financial-sanctions",
+        "shipping"
+      ],
+      "sources": [
+        {
+          "name": "The Iran (Sanctions) (Amendment) Regulations 2026 (S.I. 2026/983)",
+          "url": "https://www.legislation.gov.uk/uksi/2026/983/made",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-syria-sst-removal-hts-delisting-2026-08-24",
+      "regime": "US",
+      "category": "geopolitical",
+      "title": "US removes Syria's State Sponsor of Terrorism designation and delists HTS",
+      "summary": "On 24 August 2026 the US State Department removed Syria's designation as a State Sponsor of Terrorism, lifting prohibitions under the Terrorism List Governments Sanctions Regulations. The State Department also revoked Hay'at Tahrir al-Sham's (HTS, formerly al-Nusrah Front) designation as a Specially Designated Global Terrorist organisation, and OFAC removed HTS from the SDN List and revoked the related Syria General License 25 as no longer necessary. Commerce, State and Treasury issued an updated Tri-Seal Advisory on Syria sanctions and export-control relief.",
+      "whyItMatters": "This substantially changes the Syria sanctions landscape; banks with restricted or heightened-scrutiny policies tied to Syria's former SST status or to HTS/Syrian-government links should reassess those policies and screening rules, including reliance on the now-revoked Syria GL 25.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-08-24",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Syria",
+      "confidence": "high",
+      "entities": [
+        "Hay'at Tahrir al-Sham (HTS) / al-Nusrah Front"
+      ],
+      "tags": [
+        "syria",
+        "state-sponsor-of-terrorism",
+        "hts",
+        "delisting",
+        "sanctions-relief"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions: Removal of Syria's designation as a State Sponsor of Terrorism",
+          "url": "https://ofac.treasury.gov/recent-actions/20260824",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-ofac-iran-shadow-network-designations-2026-08-24",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC designates a large Iran-linked network of individuals, shipping and front companies",
+      "summary": "On 24 August 2026, alongside the Syria/HTS action, OFAC added numerous individuals and entities to the SDN List under Iran-related sanctions authorities (including E.O. 13846, E.O. 13902 and the Iran-related non-proliferation authority), spanning Iran-based cyber actors, senior Iranian figures including Amir Hatami and Mohammad Baqer Zolqadr, and a Turkey/UAE/Hong Kong/Singapore/China network of shipping and trading companies including Good Luck Shipping LLC and Amdeh Ship Management and Operation Co. L.L.C. OFAC also published a new E.O. 13902 sectoral determination covering aviation, digital-asset, gold, shipping and technology sectors of the Iranian economy, suspended Iran General Licenses F and G, and issued new Iran General Licenses AA and BB.",
+      "whyItMatters": "The scale and geographic spread of this round (UAE, Hong Kong, Singapore, China, Turkey) means correspondent-banking and trade-finance teams with counterparties in those jurisdictions should screen against the new SDN entries, particularly shipping and trading front companies, and review use of the now-suspended Iran GLs F and G.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-08-24",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran",
+      "confidence": "high",
+      "entities": [
+        "Amir Hatami",
+        "Mohammad Baqer Zolqadr",
+        "Good Luck Shipping LLC",
+        "Amdeh Ship Management and Operation Co. L.L.C."
+      ],
+      "tags": [
+        "iran",
+        "sdn",
+        "designations",
+        "shipping",
+        "cyber"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions: Iran-related Designations",
+          "url": "https://ofac.treasury.gov/recent-actions/20260824",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-ethiopia-emergency-expiration-2026-09-18",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC delists Ethiopia sanctions program participants as underlying national emergency expires",
+      "summary": "The national emergency declared in Executive Order 14046 (September 2021), concerning the humanitarian and human rights crisis in Ethiopia, has expired. On 18 September 2026 OFAC removed from the SDN List the individuals and entities designated under that programme — including the People's Front for Democracy and Justice, the Eritrean Defense Forces, Red Sea Trading Corporation and Hidri Trust — and removed the programme's FAQs from its website.",
+      "whyItMatters": "Ethiopia/Eritrea (E.O. 14046) sanctions screening flags should be retired for the delisted parties; banks maintaining blocked-property records tied to this programme should confirm the delisting before continuing to treat these parties as blocked.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-09-18",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Ethiopia (E.O. 14046) — programme terminated",
+      "confidence": "high",
+      "entities": [
+        "People's Front for Democracy and Justice",
+        "Eritrean Defense Forces",
+        "Red Sea Trading Corporation",
+        "Hidri Trust"
+      ],
+      "tags": [
+        "ethiopia",
+        "eritrea",
+        "delisting",
+        "programme-termination"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions: Expiration of Emergency With Respect to the Situation in Ethiopia",
+          "url": "https://ofac.treasury.gov/recent-actions/20260918",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-ofac-lukoil-sale-gl131j-2026-09-18",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC issues general licence authorising negotiations for the sale of Lukoil International GmbH",
+      "summary": "On 18 September 2026 OFAC issued Russia-related General License 131J, authorising certain transactions for the negotiation of and entry into contingent contracts for the sale of Lukoil International GmbH and related maintenance activities, alongside two amended Russia-related FAQs (1224 and 1225).",
+      "whyItMatters": "This is a US-side counterpart to the Lukoil wind-down activity already being tracked on the UK side (OFSI's Lukoil general licences); banks with Lukoil International-linked exposure should review GL 131J's scope before relying on it for sale-related transactions.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-09-18",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia — Lukoil",
+      "confidence": "high",
+      "tags": [
+        "russia",
+        "lukoil",
+        "general-licence"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions: Issuance of Amended Russia-related General License",
+          "url": "https://ofac.treasury.gov/recent-actions/20260918",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-ofac-economic-outcast-licensing-settlement-2026-09-10",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC tightens Iran licensing policy and settles $1.43m Iran sanctions case under Operation Economic Outcast",
+      "summary": "On 10 September 2026 OFAC modified its Iran-related specific-licensing policy to a presumption of denial, with narrow exceptions (e.g. risk to life, limb or environmental safety), as part of Operation Economic Outcast. Separately, OFAC announced a $1,427,230 settlement with an individual who provided management-consulting and advisory services to a leading Iranian software company, received Iranian-origin dividends into US bank accounts, and acquired Iranian real property; OFAC found the apparent violations egregious and not voluntarily self-disclosed.",
+      "whyItMatters": "Teams handling Iran-related specific-licence applications should expect a presumption of denial going forward; the settlement is a reminder that indirect Iran exposure through consulting services, dividend receipts and real-property acquisition falls within OFAC's enforcement scope.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-09-10",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran",
+      "confidence": "high",
+      "tags": [
+        "iran",
+        "enforcement",
+        "settlement",
+        "licensing-policy",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions: Licensing Policy Update and Settlement Agreement",
+          "url": "https://ofac.treasury.gov/recent-actions/20260910",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-ofac-hizballah-network-designations-2026-09-10",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC designates Kata'ib Hizballah and Hizballah-linked financial networks in Iraq, Lebanon and the UAE",
+      "summary": "On 10 September 2026 OFAC added individuals and entities to the SDN List linked to Kata'ib Hizballah in Iraq and a Hizballah financial network in Lebanon, including exchange houses and general-trading companies — Shams and Bahr Trading Company L.L.C. (Dubai), Gold Pro SARL (Beirut), Yousef Ibrahim Mansour and Partner for Exchange (Lebanon), and Ain Al Iraq for Protection Systems Technology and Audio, Visual, and Communications Solutions Company Ltd (Baghdad) — under the Hizballah Financial Sanctions Regulations and related counter-terrorism authorities.",
+      "whyItMatters": "Correspondent-banking and trade-finance teams with Iraq, Lebanon or UAE exposure should screen against the new entries, particularly exchange houses and general-trading companies used as Hizballah-linked financial conduits.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-09-10",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iraq / Lebanon — Hizballah-linked networks",
+      "confidence": "high",
+      "entities": [
+        "Shams and Bahr Trading Company L.L.C.",
+        "Gold Pro SARL",
+        "Yousef Ibrahim Mansour and Partner for Exchange",
+        "Ain Al Iraq for Protection Systems Technology and Audio, Visual, and Communications Solutions Company Ltd"
+      ],
+      "tags": [
+        "hizballah",
+        "iraq",
+        "lebanon",
+        "uae",
+        "sdn"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions: Iran-related and Counter Terrorism Designations",
+          "url": "https://ofac.treasury.gov/recent-actions/20260910",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-vtb-bank-designation-2026-09-14",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC designates VTB Bank, one of Russia's largest banks, for Iran sanctions evasion",
+      "summary": "On 14 September 2026, under Operation Economic Outcast, OFAC designated VTB Bank Public Joint Stock Company — one of Russia's largest financial institutions — pursuant to E.O. 13902 for operating in the financial sector of the Iranian economy. Treasury said VTB Bank opened offices in Iran, established correspondent banking relationships with sanctioned Iranian banks, moved billions in frozen Iranian assets, and built a rial/ruble settlement system to expand bilateral trade. VTB was previously designated under Russia-related authorities (E.O. 13662 in January 2025 and E.O. 14024 in February 2022).",
+      "whyItMatters": "Foreign financial institutions that continue dealing with VTB Bank now face secondary sanctions risk under Iran authorities on top of existing Russia-related exposure; banks should confirm no correspondent or other relationships with VTB remain in place and review counterparties for indirect exposure.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-09-14",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran / Russia — Operation Economic Outcast",
+      "confidence": "high",
+      "entities": [
+        "VTB Bank Public Joint Stock Company"
+      ],
+      "tags": [
+        "iran",
+        "russia",
+        "vtb-bank",
+        "correspondent-banking",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Operation Economic Outcast Sanctions Major Bank Helping Iran Evade Sanctions",
+          "url": "https://home.treasury.gov/news/press-releases/sb0629",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-bitbank-zanjani-designation-2026-09-17",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC designates BitBank and the Zanjani digital-asset network funding the IRGC",
+      "summary": "On 17 September 2026 OFAC designated BitBank, an Iranian digital-asset exchange controlled by OFAC-designated financier Babak Zanjani, along with its developer Pishtaz Simorgh Electronic Trade Company and three Zanjani associates — Hossein Ali Zaker Hossein, Mohammad Mahdi Zaker Hossein and Seyed Adel Heidari — under E.O. 13902's digital-asset-sector authority. OFAC said BitBank was used since June 2026 to transfer hundreds of millions of dollars in Bitcoin to the IRGC on behalf of OFAC-designated Hormuz Safe Marine Services Authority.",
+      "whyItMatters": "Digital-asset and correspondent-banking teams should screen counterparties against BitBank and the newly designated Zanjani-network entities and individuals, and treat Iranian digital-asset exchanges generally as elevated sanctions-evasion risk per OFAC's guidance (FAQ 1250, FAQ 1257).",
+      "nextStep": "review-screening-lists",
+      "date": "2026-09-17",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran / digital assets — Operation Economic Outcast",
+      "confidence": "high",
+      "entities": [
+        "BitBank",
+        "Pishtaz Simorgh Electronic Trade Company",
+        "Hossein Ali Zaker Hossein",
+        "Mohammad Mahdi Zaker Hossein",
+        "Seyed Adel Heidari"
+      ],
+      "tags": [
+        "iran",
+        "digital-assets",
+        "crypto",
+        "irgc",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Operation Economic Outcast Disrupts Digital Asset Exchange Enabling the Iranian Regime",
+          "url": "https://home.treasury.gov/news/press-releases/sb0632",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "eu-ukraine-relisting-2026-09-22",
+      "regime": "EU",
+      "category": "action",
+      "title": "EU extends Ukraine territorial-integrity sanctions listings for three years, delists a handful of individuals",
+      "summary": "On 22 September 2026 the Council of the EU prolonged the restrictive measures targeting those responsible for undermining or threatening Ukraine's territorial integrity, sovereignty and independence for a further 36 months, until 22 September 2029. The listings apply to more than 3,000 individuals and entities. As part of the review, the Council decided not to renew the listings of three individuals and one entity, and removed three deceased persons from the list.",
+      "whyItMatters": "Banks should update screening records for the delisted and non-renewed entries while continuing to treat the roughly 3,000 extended listings as in force through 2029.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-09-22",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia/Ukraine — territorial integrity (Council Decision 2014/145/CFSP)",
+      "confidence": "high",
+      "tags": [
+        "russia",
+        "ukraine",
+        "delisting",
+        "eu-sanctions"
+      ],
+      "sources": [
+        {
+          "name": "Council of the EU: Ukraine's territorial integrity: EU extends individual listings for three years",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/22/ukraine-s-territorial-integrity-eu-extends-individual-listings-for-further-three-years/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "eu-russia-milind-listings-2026-08-07",
+      "regime": "EU",
+      "category": "action",
+      "title": "EU lists five more individuals over Russia's military-industrial complex",
+      "summary": "On 7 August 2026 the Council of the EU adopted restrictive measures against five individuals holding senior positions at Russian defence and military-technology companies, including Ramil Nailevich Badgutdinov (General Director of JSC Serpukhov Plant Metallist, which produces components used in Russia's Iskander-M missile system) and Aleksandr Yurevich Dyukarev (General Director of JSC Krasnoyarsk Machine-Building Plant, which produces the RS-28 Sarmat missile system), plus directors of companies producing military communications systems and UAV/space-related military technology.",
+      "whyItMatters": "Banks should screen for the newly listed individuals and review any exposure to the Russian defence-industrial companies they lead.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-08-07",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia — military-industrial complex",
+      "confidence": "high",
+      "entities": [
+        "Ramil Nailevich Badgutdinov",
+        "Aleksandr Yurevich Dyukarev"
+      ],
+      "tags": [
+        "russia",
+        "military-industrial-complex",
+        "eu-sanctions"
+      ],
+      "sources": [
+        {
+          "name": "Council of the EU: Russia's war of aggression against Ukraine: EU lists five additional individuals supporting Russia's military-industrial complex",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/08/07/russia-s-war-of-aggression-against-ukraine-eu-lists-five-additional-individuals-supporting-russia-s-military-industrial-complex/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "eu-scam-centres-southeast-asia-2026-07-30",
+      "regime": "EU",
+      "category": "action",
+      "title": "EU sanctions Prince Holding Group, Jin Bei Group and DKBA over Southeast Asian scam centres",
+      "summary": "On 30 July 2026 the Council of the EU imposed restrictive measures under its Global Human Rights Sanctions Regime on seven persons and three entities responsible for serious human rights violations tied to scam-centre operations in Cambodia and Myanmar, including human trafficking and torture of trafficked workers. Those listed include the Prince Holding Group and its chairman Chen Zhi, the Jin Bei Group and its chairman Zhu Zhongbiao, and the Democratic Karen Benevolent Army (DKBA), a Burmese armed group that controls territory where scam-centre compounds operate.",
+      "whyItMatters": "The Prince Holding Group's cryptocurrency investment-scam operations reach victims globally; correspondent-banking, payments and crypto-facing teams should screen for the newly listed entities and individuals.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-07-30",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "EU Global Human Rights Sanctions Regime",
+      "confidence": "high",
+      "entities": [
+        "Prince Holding Group",
+        "Chen Zhi",
+        "Jin Bei Group",
+        "Zhu Zhongbiao",
+        "Democratic Karen Benevolent Army (DKBA)"
+      ],
+      "tags": [
+        "human-trafficking",
+        "scam-centres",
+        "crypto",
+        "eu-sanctions",
+        "human-rights"
+      ],
+      "sources": [
+        {
+          "name": "Council of the EU: Scam centres in Southeast Asia: EU lists seven persons and three entities responsible for serious human rights violations",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/07/30/scam-centres-in-southeast-asia-eu-lists-seven-persons-and-three-entities-responsible-for-serious-human-rights-violations/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "eu-iran-hr-listings-2026-07-24",
+      "regime": "EU",
+      "category": "action",
+      "title": "EU sanctions six more individuals over Iran human-rights violations",
+      "summary": "On 24 July 2026 the Council of the EU sanctioned six additional individuals over serious human-rights violations in Iran: five judges of Iran's Revolutionary Courts who presided over trials of religious minorities and political dissidents — including Nobel Peace Prize laureate Narges Mohammadi — imposing death sentences, long prison terms and flogging; and Nima Salehi, an Iranian hacker and founder of the 'Ashiyane' cyber group linked to the IRGC and Iran's Cyber Police. The EU's Iran human-rights sanctions now cover 269 individuals and 53 entities.",
+      "whyItMatters": "Banks should screen for the newly listed individuals under the EU's Iran human-rights sanctions regime.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-07-24",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran — human rights",
+      "confidence": "high",
+      "entities": [
+        "Nima Salehi"
+      ],
+      "tags": [
+        "iran",
+        "human-rights",
+        "eu-sanctions",
+        "cyber"
+      ],
+      "sources": [
+        {
+          "name": "Council of the EU: Iran: Council sanctions an additional six individuals over serious human rights violations",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/07/24/iran-council-sanctions-an-additional-six-individuals-over-serious-human-rights-violations/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "un-1267-committee-amendment-2026-08-18",
+      "regime": "UN",
+      "category": "action",
+      "title": "UN 1267 Committee amends 21 entries on the ISIL (Da'esh) and Al-Qaida Sanctions List",
+      "summary": "On 18 August 2026 the Security Council Committee established pursuant to resolutions 1267 (1999), 1989 (2011) and 2253 (2015) amended 21 entries on the ISIL (Da'esh) and Al-Qaida Sanctions List, updating identifying details on previously listed individuals. The changes include confirming Isnilon Totoni Hapilon (QDi.204) as killed in the Philippines in October 2017, and correcting aliases and other identifying details for entries including Nurjaman Riduan Isamuddin, also known as Hambali (QDi.087).",
+      "whyItMatters": "Banks should refresh cached copies of the ISIL/Al-Qaida list to capture the updated identifying details, including death confirmations that may resolve stale screening matches.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-08-18",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "ISIL (Da'esh) and Al-Qaida",
+      "confidence": "high",
+      "entities": [
+        "Isnilon Totoni Hapilon",
+        "Nurjaman Riduan Isamuddin (a.k.a. Hambali)"
+      ],
+      "tags": [
+        "un",
+        "1267-committee",
+        "isil",
+        "al-qaida"
+      ],
+      "sources": [
+        {
+          "name": "UN Security Council Press Release SC/16435",
+          "url": "https://press.un.org/en/2026/sc16435.doc.htm",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "un-taliban-isil-technical-amendments-2026-09-04",
+      "regime": "UN",
+      "category": "action",
+      "title": "UN sanctions committees make further technical amendments to Taliban and ISIL/Al-Qaida list entries",
+      "summary": "On 27 August 2026 the 1988 Committee (Taliban sanctions) amended one entry, updating identifying details for Abdul Salam Hanafi. On 4 September 2026 the 1267 Committee amended two ISIL (Da'esh) and Al-Qaida entries, updating identifying details for Sanaullah Ghafari (a.k.a. Shahab al Muhajir, leader of ISIL-Khorasan) and Abubakar Swalleh (an ISIL facilitator in East and Southern Africa). Both changes are identifying-detail corrections rather than new designations.",
+      "whyItMatters": "Banks should refresh cached copies of the Taliban and ISIL/Al-Qaida lists to capture the updated identifying details on these existing entries.",
+      "nextStep": "monitor-only",
+      "date": "2026-09-04",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Taliban / ISIL (Da'esh) and Al-Qaida",
+      "confidence": "high",
+      "entities": [
+        "Abdul Salam Hanafi",
+        "Sanaullah Ghafari (a.k.a. Shahab al Muhajir)",
+        "Abubakar Swalleh"
+      ],
+      "tags": [
+        "un",
+        "1988-committee",
+        "1267-committee",
+        "taliban",
+        "isil"
+      ],
+      "sources": [
+        {
+          "name": "UN Security Council Press Release SC/16443",
+          "url": "https://press.un.org/en/2026/sc16443.doc.htm",
+          "kind": "primary"
+        },
+        {
+          "name": "UN Security Council Press Release SC/16446",
+          "url": "https://press.un.org/en/2026/sc16446.doc.htm",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "un-sc-res-2828-sudan-2026-09-11",
+      "regime": "UN",
+      "category": "geopolitical",
+      "title": "Security Council adopts resolution 2828 on Sudan and South Sudan Secretary-General reporting",
+      "summary": "The Security Council adopted resolution S/RES/2828 (2026) on 11 September 2026, titled \"Reports of the Secretary-General on the Sudan and South Sudan\", under the framework of the 1591 Sudan sanctions committee. (Confidence: low — the resolution's operative text was not accessible during this run, so whether or how it changes the Sudan sanctions measures themselves — arms embargo, asset freeze, travel ban or panel-of-experts mandate — could not be confirmed.)",
+      "whyItMatters": "Banks with Sudan-related exposure should watch for a fuller readout of resolution 2828, since resolutions under the 1591 Committee framework can renew or adjust the Sudan sanctions regime's measures.",
+      "nextStep": "monitor-only",
+      "date": "2026-09-11",
+      "addedAt": "2026-09-22",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Sudan (1591 Committee)",
+      "confidence": "low",
+      "tags": [
+        "un",
+        "sudan",
+        "1591-committee",
+        "security-council-resolution"
+      ],
+      "sources": [
+        {
+          "name": "UN Security Council: Resolutions adopted 2026",
+          "url": "https://main.un.org/securitycouncil/en/content/resolutions-0",
+          "kind": "primary"
+        }
       ]
     }
   ]
