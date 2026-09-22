@@ -9,7 +9,6 @@ import type { Item } from "./types";
 // Keeping the agent's output in plain JSON means it appends safely and
 // provenance stays clean. Views consume ALL_ITEMS.
 export const FEED = feedData.items as unknown as Item[];
-export const FEED_META = { lastUpdated: feedData.lastUpdated };
 
 // De-duplicate the merged list by id. ITEMS come first, so a curated
 // (verified) copy wins over an agent duplicate.

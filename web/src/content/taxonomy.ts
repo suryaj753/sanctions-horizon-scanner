@@ -25,11 +25,11 @@ export const CATEGORY_META: Record<Category, { label: string; plural: string; Ic
   },
 };
 
-export const REGIME_META: Record<Regime, { label: string; blurb: string; Icon: LucideIcon }> = {
-  UK: { label: "UK", blurb: "HM Treasury, OFSI & OTSI", Icon: Landmark },
-  US: { label: "US", blurb: "OFAC, US Treasury & the White House", Icon: Landmark },
-  EU: { label: "EU", blurb: "Council, Commission, EUR-Lex & the CJEU", Icon: Flag },
-  UN: { label: "UN", blurb: "Security Council & sanctions committees", Icon: Globe2 },
+export const REGIME_META: Record<Regime, { label: string; fullName: string; blurb: string; Icon: LucideIcon }> = {
+  UK: { label: "UK", fullName: "United Kingdom", blurb: "HM Treasury, OFSI & OTSI", Icon: Landmark },
+  US: { label: "US", fullName: "United States", blurb: "OFAC, US Treasury & the White House", Icon: Landmark },
+  EU: { label: "EU", fullName: "European Union", blurb: "Council, Commission, EUR-Lex & the CJEU", Icon: Flag },
+  UN: { label: "UN", fullName: "United Nations", blurb: "Security Council & sanctions committees", Icon: Globe2 },
 };
 
 // A starting point for the reader — deliberately hedged labels, never

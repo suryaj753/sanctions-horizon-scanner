@@ -19,6 +19,7 @@ resolution — is the same shape:
 | `status` | `published \| pending \| rejected` |
 | `confidence` | the agent's honest certainty in the item, distinct from `nextStep` |
 | `verified` | a human vouch — **never** set by the agent |
+| `entities` | named individuals/entities the item is specifically about, when known from the source — optional, omit rather than guess |
 | `tags` | freeform, used for search and cross-linking |
 | `sources` | `{ name, url?, kind? }[]` — at least one with a URL, hard requirement for publish |
 
@@ -50,6 +51,10 @@ the brief specifies.
 - `verified: true` is a human-only action — it means someone on the team
   has read the primary source and vouches for the item. The agent never
   sets it.
+- `entities` only gets populated with names actually read from the source.
+  If the source only gives a count ("13 designations") without naming them,
+  leave `entities` unset rather than list placeholder or partial names — an
+  incomplete-looking list reads as complete to someone skimming it.
 
 ## Status lifecycle
 

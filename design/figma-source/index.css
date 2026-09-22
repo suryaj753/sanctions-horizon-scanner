@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://static.figma.com/font/BarlowCondensed-Regular_2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://static.figma.com/font/BarlowCondensed-Medium_2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('https://static.figma.com/font/BarlowCondensed-SemiBold_2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://static.figma.com/font/BarlowCondensed-Bold_2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('https://static.figma.com/font/BarlowCondensed-ExtraBold_2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://static.figma.com/font/JetBrainsMono_wght__1') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://static.figma.com/font/JetBrainsMono_wght__1') format('woff2');
+}
+
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}

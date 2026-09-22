@@ -78,6 +78,10 @@ trafilatura --output-format markdown --with-metadata -u "URL"
      `status: "published"`;
    - `programme`: the relevant jurisdiction(s)/sanctions programme(s), e.g.
      "Russia — cyber-related";
+   - `entities`: the named individuals/entities the item is specifically
+     about, only when the source actually names them — if it only gives a
+     count ("13 designations"), leave `entities` unset rather than pad the
+     list or guess;
    - `tags` and **`sources`** with at least one URL;
    - `confidence` (`high`/`medium`/`low`): your honest certainty in the
      item — say so in the `summary` too if it's not high;

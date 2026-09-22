@@ -55,6 +55,8 @@ export interface Item {
   confidence?: Confidence;
   /** A human has reviewed and vouched for this item. Never set by the agent. */
   verified?: boolean;
+  /** Named individuals/entities the item is specifically about, when known from the source. Omit rather than guess. */
+  entities?: string[];
   tags: string[];
   sources: Source[];
 }

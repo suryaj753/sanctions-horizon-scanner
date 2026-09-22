@@ -24,7 +24,7 @@ export function PageHeader({
         {Icon && <IconTile Icon={Icon} tone="brand" size="lg" />}
         <div className="min-w-0">
           {eyebrow && <div className="text-[11px] uppercase tracking-[0.14em] text-teal-700/80 font-medium mb-1">{eyebrow}</div>}
-          <h1 className="text-[24px] sm:text-[29px] font-light tracking-tight text-neutral-900 leading-[1.1]">{title}</h1>
+          <h1 className="font-condensed text-[28px] sm:text-[34px] font-semibold tracking-tight text-neutral-900 leading-[1.1]">{title}</h1>
           {subtitle && <p className="mt-1.5 text-[13px] sm:text-sm text-neutral-500 font-light max-w-2xl">{subtitle}</p>}
         </div>
       </div>

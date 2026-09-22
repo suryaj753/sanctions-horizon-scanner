@@ -6,6 +6,15 @@
    v4 scans JSX/TS for literal classes; coloured variants live in
    lib/uiTokens.ts. */
 
+@theme {
+  /* Barlow Condensed for display headlines/titles (`font-condensed`),
+     JetBrains Mono for reference IDs, dates and timestamps (`font-mono`) —
+     the type contrast the master-detail layout leans on for hierarchy,
+     independent of colour. Body copy stays Inter (`font-sans`, the default). */
+  --font-condensed: "Barlow Condensed", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
 :root {
   color-scheme: light;
 }

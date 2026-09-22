@@ -31,24 +31,3 @@ function Legend({ dot, label, n }: { dot: string; label: string; n?: number }) {
     </span>
   );
 }
-
-// A titled set of horizontal distribution bars (e.g. by programme, by region).
-export function MiniBars({ data }: { data: { label: string; n: number }[] }) {
-  if (data.length === 0) return <p className="text-[11px] text-neutral-400">No data yet.</p>;
-  const max = Math.max(...data.map((d) => d.n), 1);
-  return (
-    <div className="space-y-2">
-      {data.map((d) => (
-        <div key={d.label}>
-          <div className="flex justify-between text-[11px] text-neutral-500 mb-1">
-            <span className="truncate">{d.label}</span>
-            <span className="tabular-nums text-neutral-400">{d.n}</span>
-          </div>
-          <div className="h-1.5 rounded-full bg-neutral-100 overflow-hidden">
-            <div className="h-full rounded-full bg-teal-600" style={{ width: `${(d.n / max) * 100}%` }} />
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-}
