@@ -14,9 +14,9 @@ web/src/
     taxonomy.ts       label/icon/tone metadata per regime & category
     items.ts          hand-seeded baseline (empty by design, see CONTENT.md)
     feed.json          agent-published items, append-only
-    index.ts          merges items.ts + feed.json → ALL_ITEMS
+    index.ts          merges items.ts + feed.json → ALL_ITEMS; exports COVERAGE
   components/         shared, reused across the one page
-    TopBar, PageHeader, ItemList, ItemDetail, CopyButton, viz
+    TopBar, PageHeader, ItemList, ItemDetail, Coverage, CopyButton, viz
   views/
     HorizonScanning.tsx   the one page: stats + category mix + master-detail
   lib/

@@ -57,6 +57,13 @@ light/neutral/teal colour identity, which is unchanged.
   `lg` breakpoint the columns stack instead of sitting side by side — see
   "Master-detail responsiveness" in `docs/ARCHITECTURE.md`.
 
+- Coverage indicator (`components/Coverage.tsx`): sits under the item count
+  in the page header's right slot. Neutral "All N sources checked" text when
+  every registry source was read in its latest check; otherwise an amber
+  "N of 24 sources not fully checked" button (`aria-expanded`) that opens a
+  panel between the header and the stat cards listing each such source's
+  status, reason and date. Status is always spelled out in text.
+
 ## Components worth knowing
 
 - `ItemDetail`: the full content block for the selected item — header

@@ -46,6 +46,11 @@ trafilatura --output-format markdown --with-metadata -u "URL"
   (linked from the FSD page) instead of the search UI.
 - Long pages: redirect to a scratch file and read that instead of dumping
   stdout.
+- **Same-day OFAC actions**: when OFAC publishes two actions on one day the
+  second gets a suffixed URL (`recent-actions/YYYYMMDD_33`). Walking dates by
+  URL misses these; read the Recent Actions index itself.
+- See [`docs/RUNBOOK.md`](../docs/RUNBOOK.md) for which sources block plain
+  automated fetches.
 - The metadata `date:` is the page's first-published date; take event dates
   from the page **body**, not that field, when the two differ.
 
@@ -95,16 +100,38 @@ trafilatura --output-format markdown --with-metadata -u "URL"
      omit it or mark the item `confidence: "low"` and say why.
 6. **Write**: append the new items to `feed.json` and set `lastUpdated` to
    today.
-7. **Digest**: regenerate the rolling weekly one-pager,
+7. **Record coverage**: update `feed.json`'s `coverage` array, which holds
+   exactly one entry per source in [`sources.ts`](sources.ts), keyed by the
+   source's `id`. For every source you attempted this run, set `checkedAt`
+   to today and `status` to:
+   - `checked`: the source was read for the whole window since its last
+     check;
+   - `partial`: some of it was read (e.g. an index loaded but the detail
+     pages behind it were blocked, or only part of the date range);
+   - `unreachable`: it could not be read at all (bot challenge, login wall,
+     outage).
+   `partial` and `unreachable` entries **must** carry a one-line `note`
+   saying why. Leave entries for sources you did not attempt untouched, so
+   their older `checkedAt` shows. Never mark a source `checked` that you did
+   not actually read. Coverage is shown on the Horizon Scanning page and in
+   `DIGEST.md`, so a reader can tell "nothing new" from "not checked".
+   If a source blocks you, do not work around it (no spoofed user agents,
+   automation-hiding flags, credentials or mirrors): record it as
+   `unreachable` and do not infer items for it from other sources.
+8. **Digest**: regenerate the rolling weekly one-pager,
    `npm --prefix web run digest` (writes `DIGEST.md` at the repo root).
    Cheap and idempotent, run it every cycle so the digest stays current.
-8. (Remote mode) commit the diff (include `DIGEST.md`):
+9. (Remote mode) commit the diff (include `DIGEST.md`):
    `feat(feed): ingest YYYY-MM-DD (N items)`.
 
 ## Output shape (`feed.json`)
 
 ```json
-{ "lastUpdated": "YYYY-MM-DD", "items": [ /* Item objects */ ] }
+{
+  "lastUpdated": "YYYY-MM-DD",
+  "coverage": [ /* one CoverageEntry per source in sources.ts */ ],
+  "items": [ /* Item objects */ ]
+}
 ```
 
 ## Cadence

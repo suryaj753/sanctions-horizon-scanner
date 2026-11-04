@@ -43,3 +43,24 @@ agent (or you, manually) reads the fixed source list in
 [`agent/sources.ts`](../agent/sources.ts), drafts new `Item`s, appends them
 to `web/src/content/feed.json`, bumps `lastUpdated`, and runs `npm --prefix
 web run digest` to refresh `DIGEST.md`.
+
+## Sources that block plain automated fetches
+
+As of the 4 November 2026 runs (see `coverage` in `feed.json` for the
+latest state):
+
+| Source | What happens | Options for an unattended run |
+|---|---|---|
+| Council of the EU (`consilium.europa.eu`) | 403 "Checking your browser" challenge, plain HTTP and headless browser alike | Official journal (EUR-Lex OJ L series) for adopted acts; a fetch service that handles bot checks; or human-checked |
+| UN list-update log, consolidated list, committees, resolutions (`main.un.org`) | 202 bot challenge to plain HTTP; loads in a plain headless browser | Headless browser; the official consolidated list XML download; resolution PDFs on `documents.un.org` fetch directly |
+| UN press releases (`press.un.org`) | CAPTCHA, even in a headless browser | Human-checked; names can sometimes be read from the consolidated list XML once entries are amended (not for delistings) |
+| EU Financial Sanctions Database | Search UI and static files route both redirect to EU Login | An EU Login service account for the official file download, or human-checked |
+| CJEU (`curia.europa.eu`, InfoCuria) | 403 "site temporarily unavailable" | Retry later; a fetch service; or human-checked |
+| OFAC General Licences and Recent Actions index | Client-rendered list; empty to plain HTTP | Headless browser for the index; per-day pages fetch directly but miss suffixed same-day actions (`_33`); OFAC's SLS data files for list changes |
+
+For a move to the Claude API: prefer official downloadable files wherever
+they exist, put a browser-capable fetch step in front of the model for the
+client-rendered pages, and keep anything behind a challenge, CAPTCHA or
+login as human-checked, recorded `unreachable` in coverage. Do not spoof
+user agents or hide automation to get past a challenge.
+

@@ -23,6 +23,24 @@ resolution — is the same shape:
 | `tags` | freeform, used for search and cross-linking |
 | `sources` | `{ name, url?, kind? }[]` — at least one with a URL, hard requirement for publish |
 
+## Source coverage
+
+`feed.json` also carries a `coverage` array (`CoverageEntry` in
+`web/src/content/types.ts`), one entry per source in `agent/sources.ts`:
+
+| Field | Meaning |
+|---|---|
+| `sourceId` | the source's stable `id` in `sources.ts` (never renamed) |
+| `name`, `regime` | copied from the registry so the web app needs no import from `agent/` |
+| `checkedAt` | when the source was last attempted (ISO yyyy-mm-dd) |
+| `status` | `checked \| partial \| unreachable` |
+| `note` | one-line reason, required unless `checked` |
+
+Entries are per source, not per run: a run updates only the sources it
+attempted, so an older `checkedAt` shows a source that has gone unchecked.
+This is separate from `Item` on purpose; coverage describes the scan, not
+any development.
+
 ## Category taxonomy
 
 Three categories, matching the original brief exactly (not a Sentinel-style
