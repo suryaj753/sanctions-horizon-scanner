@@ -308,7 +308,7 @@
       "regime": "UK",
       "category": "action",
       "title": "UK adds 6 new designations under the Global Human Rights and Counter-Terrorism regimes",
-      "summary": "On 8 August 2026 the UK Sanctions List was updated with 5 new designations under the Global Human Rights regime and 1 new designation under the Counter-Terrorism (International) regime, according to the list's published change log. The Global Human Rights regime entries were further varied on 9 September and corrected on 10 September; the change log does not name the individuals or entities involved.",
+      "summary": "On 8 September 2026 the UK Sanctions List was updated with 5 new designations under the Global Human Rights regime and 1 new designation under the Counter-Terrorism (International) regime, according to the list's published change log. The Global Human Rights regime entries were further varied on 9 September and corrected on 10 September; the change log does not name the individuals or entities involved.",
       "whyItMatters": "Banks should refresh Global Human Rights and Counter-Terrorism (International) regime screening lists to capture the new designations and the follow-up variation/correction made in the days after.",
       "nextStep": "review-screening-lists",
       "date": "2026-09-08",
@@ -905,23 +905,29 @@
       "id": "un-sc-res-2828-sudan-2026-09-11",
       "regime": "UN",
       "category": "geopolitical",
-      "title": "Security Council adopts resolution 2828 on Sudan and South Sudan Secretary-General reporting",
-      "summary": "The Security Council adopted resolution S/RES/2828 (2026) on 11 September 2026, titled \"Reports of the Secretary-General on the Sudan and South Sudan\", under the framework of the 1591 Sudan sanctions committee. (Confidence: low — the resolution's operative text was not accessible during this run, so whether or how it changes the Sudan sanctions measures themselves — arms embargo, asset freeze, travel ban or panel-of-experts mandate — could not be confirmed.)",
-      "whyItMatters": "Banks with Sudan-related exposure should watch for a fuller readout of resolution 2828, since resolutions under the 1591 Committee framework can renew or adjust the Sudan sanctions regime's measures.",
+      "title": "Security Council renews Sudan sanctions for one month, to 9 October 2026",
+      "summary": "On 11 September 2026 the Security Council adopted resolution 2828 (2026), renewing the Sudan sanctions measures (arms embargo, travel ban and asset freeze under resolutions 1556, 1591 and 2035) only until 9 October 2026, and extending the 1591 Committee's Panel of Experts until 9 November 2026. It was followed by resolution 2830 (2026) on 8 October. (Updated 4 November 2026: the earlier version of this item could not confirm the resolution's content; it has now been read from the primary text.)",
+      "whyItMatters": "A one-month rollover rather than the usual annual renewal signals Council disagreement over the regime's future; banks screening against the UN Sudan list should track each renewal.",
       "nextStep": "monitor-only",
       "date": "2026-09-11",
       "addedAt": "2026-09-22",
       "addedBy": "agent",
       "status": "published",
       "programme": "Sudan (1591 Committee)",
-      "confidence": "low",
+      "confidence": "high",
       "tags": [
         "un",
         "sudan",
         "1591-committee",
-        "security-council-resolution"
+        "security-council-resolution",
+        "renewal"
       ],
       "sources": [
+        {
+          "name": "UN Security Council resolution 2828 (2026)",
+          "url": "https://documents.un.org/doc/undoc/gen/n26/225/70/pdf/n2622570.pdf",
+          "kind": "primary"
+        },
         {
           "name": "UN Security Council: Resolutions adopted 2026",
           "url": "https://main.un.org/securitycouncil/en/content/resolutions-0",
@@ -1252,7 +1258,7 @@
       "regime": "US",
       "category": "regulatory-update",
       "title": "OFAC warns foreign banks they can be sanctioned without notice for dealing with Iran",
-      "summary": "On 5 October 2026 OFAC published an alert, \"Notice to Foreign Financial Institutions Conducting Business with Iran\", stating that foreign financial institutions that continue to transact with sanctioned Iranian financial institutions could be targeted at any time without advance notification and should terminate such activity immediately. The alert cites earlier actions under Operation Economic Outcast, including severing US correspondent access for Banque Misr UAE (28 August), designating Türkiye-based Golden Global Bank (4 September) and designating VTB Bank (14 September), and points institutions to existing Treasury guidance on Iranian shadow-banking typologies.",
+      "summary": "On 5 October 2026 OFAC published an alert, \"Notice to Foreign Financial Institutions Conducting Business with Iran\", stating that foreign financial institutions that continue to transact with sanctioned Iranian financial institutions could be targeted at any time without advance notification and should terminate such activity immediately. The alert presents Operation Economic Outcast's earlier bank actions as precedent (FinCEN's proposed rule against Banque Misr UAE, OFAC's designations of Golden Global Bank and VTB Bank; each has its own item) and points institutions to existing Treasury guidance on Iranian shadow-banking typologies.",
       "whyItMatters": "This is an explicit secondary-sanctions warning to non-US banks; correspondent-banking teams should review respondent banks' exposure to Iranian banks and their third-country branches, and apply the shadow-banking typologies the alert references.",
       "nextStep": "assess-framework-impact",
       "date": "2026-10-05",
@@ -1709,6 +1715,285 @@
         {
           "name": "European Commission: EU adopts largest-ever package of listings against Russia",
           "url": "https://finance.ec.europa.eu/news/eu-adopts-largest-ever-package-listings-against-russia-2026-10-12_en",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "id": "us-banque-misr-uae-fincen-2026-08-28",
+      "regime": "US",
+      "category": "action",
+      "title": "FinCEN proposes cutting Banque Misr UAE off from US correspondent banking",
+      "summary": "On 28 August 2026, under Operation Economic Outcast, FinCEN proposed a rule that would revoke Banque Misr UAE's correspondent banking access to US financial institutions. Treasury estimated the bank processed about $1.8 billion between January 2024 and June 2026 for 103 companies potentially part of Iranian shadow banking networks, including apparent front companies for Iran's Ministry of Defense and the IRGC. The same day OFAC designated Reza Mohammad Taeedi, general manager of Bank Melli's Dubai branch, and Hong Kong-based Kameng Trading Limited, which Treasury said laundered funds for sanctioned exchange house Pedram Pirouzan (Opal Exchange). The action against Banque Misr UAE is a proposed rule, not an SDN designation.",
+      "whyItMatters": "If finalised, US institutions could no longer maintain correspondent accounts for Banque Misr UAE; banks with direct or nested exposure to it should assess that exposure now, and screen for the two OFAC designations.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-08-28",
+      "programme": "Iran — Operation Economic Outcast",
+      "confidence": "high",
+      "entities": [
+        "Banque Misr UAE",
+        "Reza Mohammad Taeedi",
+        "Kameng Trading Limited"
+      ],
+      "tags": [
+        "iran",
+        "uae",
+        "correspondent-banking",
+        "fincen",
+        "proposed-rule",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Iran's Access to UAE Banks Targeted Under Operation Economic Outcast",
+          "url": "https://home.treasury.gov/news/press-releases/sb0617",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "id": "us-golden-global-bank-2026-09-04",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC designates Türkiye-based Golden Global Bank for serving the IRGC-Qods Force",
+      "summary": "On 4 September 2026, under Operation Economic Outcast, OFAC designated Türkiye-based Golden Global Yatirim Bankasi Anonim Sirketi (Golden Global Bank) and its subsidiaries, including Golden Global Portfoy Yonetimi A.S., under E.O. 13902 for operating in Iran's financial sector. Treasury said the bank facilitated tens of millions of dollars in transactions for the IRGC-Qods Force and gave the Iranian regime correspondent banking access to move funds internationally. OFAC issued Iran General License CC authorising the wind-down of transactions with persons blocked that day.",
+      "whyItMatters": "Correspondent-banking teams with Turkish exposure should screen for the bank and its subsidiaries and confirm any remaining activity falls within GL CC's wind-down terms.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-09-04",
+      "programme": "Iran — Operation Economic Outcast",
+      "confidence": "high",
+      "entities": [
+        "Golden Global Yatirim Bankasi Anonim Sirketi (Golden Global Bank)",
+        "Golden Global Portfoy Yonetimi A.S."
+      ],
+      "tags": [
+        "iran",
+        "turkey",
+        "banks",
+        "correspondent-banking",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Treasury Severs Iranian Regime's Financial Lifelines in Türkiye",
+          "url": "https://home.treasury.gov/news/press-releases/sb0622",
+          "kind": "primary"
+        },
+        {
+          "name": "OFAC Recent Actions, 4 September 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20260904",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "id": "us-graham-act-eo-waivers-2026-10-16",
+      "regime": "US",
+      "category": "geopolitical",
+      "title": "Executive Order implements the Graham Russia–Iran sanctions act, then waives its tariffs and most sanctions",
+      "summary": "On 16 October 2026 the President issued an Executive Order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, which the order says was signed into law on 18 September 2026. The order sets duty increases provided for by the Act (500% on goods from Russia; 100% on goods from the largest importers of Russian crude oil and natural gas and from the top facilitators of Russian oil sanctions evasion), then waives all of the Act's duties and most of its sanctions provisions, citing a national-interest certification to Congress. The waivers stay in effect until the President or Secretary of State determines further action is appropriate. The order states it does not affect existing Russia sanctions under prior Executive Orders. It delegates the Act's authorities to State, Treasury, Energy and the US Trade Representative.",
+      "whyItMatters": "Nothing changes for banks today, but the statutory authority for broad Russia- and Iran-linked secondary measures now exists and can be switched on by lifting the waivers; teams should watch for USTR monitoring reports and any withdrawal of the waivers.",
+      "nextStep": "monitor-only",
+      "date": "2026-10-16",
+      "programme": "Russia / Iran — Graham Act",
+      "confidence": "high",
+      "tags": [
+        "russia",
+        "iran",
+        "executive-order",
+        "secondary-sanctions",
+        "tariffs",
+        "waiver"
+      ],
+      "sources": [
+        {
+          "name": "White House: Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "id": "un-sc-res-2830-sudan-2026-10-08",
+      "regime": "UN",
+      "category": "geopolitical",
+      "title": "Security Council rolls Sudan sanctions over again, to 11 December 2026",
+      "summary": "On 8 October 2026 the Security Council adopted resolution 2830 (2026), renewing the Sudan sanctions measures (arms embargo, travel ban and asset freeze under resolutions 1556, 1591 and 2035) until 11 December 2026, and extending the 1591 Committee's Panel of Experts until 11 January 2027. It follows resolution 2828 (2026), which had renewed the measures only until 9 October 2026.",
+      "whyItMatters": "Two short rollovers in a row put the Sudan regime on a short renewal cycle; banks screening against the UN Sudan list should watch for the December decision.",
+      "nextStep": "monitor-only",
+      "date": "2026-10-08",
+      "programme": "Sudan (1591 Committee)",
+      "confidence": "high",
+      "tags": [
+        "un",
+        "sudan",
+        "1591-committee",
+        "security-council-resolution",
+        "renewal"
+      ],
+      "sources": [
+        {
+          "name": "UN Security Council resolution 2830 (2026)",
+          "url": "https://documents.un.org/doc/undoc/gen/n26/247/58/pdf/n2624758.pdf",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "id": "un-sc-res-2831-haiti-2026-10-14",
+      "regime": "UN",
+      "category": "geopolitical",
+      "title": "Security Council renews Haiti sanctions for a year and extends its Panel of Experts",
+      "summary": "On 14 October 2026 the Security Council adopted resolution 2831 (2026), renewing for one year the Haiti sanctions measures in resolution 2653 (2022) (asset freeze, travel ban and targeted arms embargo) and extending the Panel of Experts for 13 months, with an interim report due by 28 March 2027 and a final report by 1 September 2027. The resolution also flags misappropriation, embezzlement and diversion of public resources as a risk to Haiti's stability.",
+      "whyItMatters": "The Haiti regime and its listings stay in force into October 2027; banks with Caribbean exposure should keep the 2653 list in screening.",
+      "nextStep": "monitor-only",
+      "date": "2026-10-14",
+      "programme": "Haiti (2653 Committee)",
+      "confidence": "high",
+      "tags": [
+        "un",
+        "haiti",
+        "security-council-resolution",
+        "renewal"
+      ],
+      "sources": [
+        {
+          "name": "UN Security Council resolution 2831 (2026)",
+          "url": "https://documents.un.org/doc/undoc/gen/n26/257/73/pdf/n2625773.pdf",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "id": "un-delistings-1267-1518-2026-10-24",
+      "regime": "UN",
+      "category": "action",
+      "title": "UN committees delist three ISIL/Al-Qaida individuals and one Iraq-regime entity",
+      "summary": "The UN Security Council list-update log records delistings on 24 October 2026 by the 1267 Committee of three individuals (QDi.338, QDi.399, QDi.400; press release SC/16488) and on 5 October 2026 by the 1518 Committee (Iraq) of one entity (IQe.200; SC/16468). (Confidence: medium — the log gives reference codes only; the press releases naming the entries were behind a CAPTCHA during this run, so names are not confirmed here.)",
+      "whyItMatters": "Delisted entries should be removed from UN-list screening so former designees are no longer blocked; look up the reference codes in the current consolidated list before acting.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-24",
+      "programme": "ISIL (Da'esh) and Al-Qaida; Iraq",
+      "confidence": "medium",
+      "tags": [
+        "un",
+        "delisting",
+        "1267-committee",
+        "1518-committee",
+        "isil",
+        "iraq"
+      ],
+      "sources": [
+        {
+          "name": "UN Security Council: List updates to the Consolidated List",
+          "url": "https://main.un.org/securitycouncil/en/content/list-updates-unsc-consolidated-list",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "id": "un-1267-amendments-2026-10-26",
+      "regime": "UN",
+      "category": "action",
+      "title": "UN 1267 Committee makes three rounds of amendments to ISIL/Al-Qaida entries",
+      "summary": "The UN list-update log records amendments by the 1267 Committee on 28 September 2026 (QDe.168; SC/16465), 15 October 2026 (QDi.082, QDi.427, QDe.132; SC/16480) and 26 October 2026 (QDi.340, QDi.342, QDi.376; SC/16490). (Confidence: medium — the log gives reference codes only; the press releases describing the changes were behind a CAPTCHA during this run.)",
+      "whyItMatters": "Amendments can change identifying details on existing screening matches; refresh the ISIL/Al-Qaida list rather than relying on cached data.",
+      "nextStep": "monitor-only",
+      "date": "2026-10-26",
+      "programme": "ISIL (Da'esh) and Al-Qaida",
+      "confidence": "medium",
+      "tags": [
+        "un",
+        "1267-committee",
+        "isil",
+        "al-qaida"
+      ],
+      "sources": [
+        {
+          "name": "UN Security Council: List updates to the Consolidated List",
+          "url": "https://main.un.org/securitycouncil/en/content/list-updates-unsc-consolidated-list",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "id": "us-ofac-cuba-regulations-2026-09-29",
+      "regime": "US",
+      "category": "regulatory-update",
+      "title": "OFAC publishes new Cuba sanctions regulations and amends the Cuban Assets Control Regulations",
+      "summary": "On 29 September 2026 OFAC published regulations implementing Executive Order 14404 of 1 May 2026 (\"Imposing Sanctions on Those Responsible for Repression in Cuba and Threats to the United States National Security and Foreign Policy\") and amended the Cuban Assets Control Regulations (31 CFR part 515), effective on Federal Register publication on 30 September 2026. It issued five new and 29 amended Cuba-related FAQs and an OFAC alert, \"Expanded Sanctions Against Cuba\", on increased sanctions risk for Cuba-related transactions. In the same release OFAC amended the Iranian Transactions and Sanctions Regulations to incorporate E.O. 13902 and removed over 100 duplicative subparts from its CFR chapter.",
+      "whyItMatters": "Banks should review Cuba-related payment and trade-finance policies against the amended CACR and the new E.O. 14404 regulations; the State Department's later designation of Cuba-based BICSA under E.O. 14404 shows the authority is already in use.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-09-29",
+      "programme": "Cuba",
+      "confidence": "high",
+      "tags": [
+        "cuba",
+        "regulations",
+        "cacr",
+        "ofac-alert"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions, 29 September 2026 (regulatory amendments; Cuba Sanctions Regulations)",
+          "url": "https://ofac.treasury.gov/recent-actions/20260929_33",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "id": "us-ofac-gl135-russian-diesel-2026-10-09",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC authorises transactions in Russian-origin diesel fuel until April 2027",
+      "summary": "On 9 October 2026 OFAC issued Russia-related General License 135, authorising transactions prohibited under the Russian Harmful Foreign Activities and Ukraine-/Russia-Related Sanctions Regulations that relate to the sale, delivery, offloading or importation, including into the United States, of diesel fuel of Russian Federation origin, through 12:01 a.m. EDT on 7 April 2027. The licence does not authorise any debit to an account at a US financial institution of the Central Bank of the Russian Federation, the National Wealth Fund or the Ministry of Finance.",
+      "whyItMatters": "Trade-finance teams may see Russian-origin diesel transactions that are now licensed; payments still cannot be debited from the excluded Russian state accounts, so checks on the paying account remain necessary.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-10-09",
+      "programme": "Russia",
+      "confidence": "high",
+      "tags": [
+        "russia",
+        "general-licence",
+        "diesel",
+        "energy"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions, 9 October 2026 (General License 135)",
+          "url": "https://ofac.treasury.gov/recent-actions/20261009_33",
+          "kind": "primary"
+        },
+        {
+          "name": "OFAC Russia-related General License 135",
+          "url": "https://ofac.treasury.gov/media/937216/download?inline",
           "kind": "primary"
         }
       ]
