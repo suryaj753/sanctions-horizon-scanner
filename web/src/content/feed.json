@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22",
+  "lastUpdated": "2026-11-04",
   "items": [
     {
       "id": "uk-russia-designations-2026-08-06",
@@ -925,6 +925,790 @@
         {
           "name": "UN Security Council: Resolutions adopted 2026",
           "url": "https://main.un.org/securitycouncil/en/content/resolutions-0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-russia-designations-2026-10-01",
+      "regime": "UK",
+      "category": "action",
+      "title": "UK adds 31 Russia regime listings, including LNG carriers and Georgian politicians",
+      "summary": "On 1 October 2026 the FCDO added 31 entries to the UK Sanctions List under the Russia regime: individuals including Georgian politicians from the Solidarity for Peace party (such as Mamuka Pipia, who led a delegation to meet the head of the so-called Donetsk People's Republic), eight ships carrying Russian-origin liquefied natural gas to third countries (including the ALEKSEY KOSYGIN, KONSTANTIN POSIET and PYOTR STOLYPIN), and Novatek Gas and Power Asia Pte Ltd, designated for operating in Russia's energy sector. The UK Sanctions List change log records the round as 23 designations and 8 specifications.",
+      "whyItMatters": "Trade-finance, shipping and correspondent-banking teams should screen for the newly specified LNG carriers and Novatek's Singapore trading arm, which signal UK pressure on Russian LNG exports through third-country intermediaries.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-01",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia",
+      "confidence": "high",
+      "entities": [
+        "Novatek Gas and Power Asia Pte Ltd",
+        "Mamuka Pipia",
+        "ALEKSEY KOSYGIN (IMO 9904546)",
+        "KONSTANTIN POSIET (IMO 9904704)",
+        "PYOTR STOLYPIN (IMO 9904675)"
+      ],
+      "tags": [
+        "russia",
+        "lng",
+        "shipping",
+        "designations",
+        "uk-sanctions-list"
+      ],
+      "sources": [
+        {
+          "name": "FCDO Sanctions Notice, Russia, 01 October 2026",
+          "url": "https://assets.publishing.service.gov.uk/media/6abe173e9c196f81005e5d7c/Sanctions_Notice__Russia__01_October_2026.pdf",
+          "kind": "primary"
+        },
+        {
+          "name": "UK Sanctions List",
+          "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-russia-designations-zarubezhneft-2026-10-08",
+      "regime": "UK",
+      "category": "action",
+      "title": "UK designates Zarubezhneft, Kyrgyz payment firms and shadow-fleet tankers in 38-entry Russia round",
+      "summary": "On 8 October 2026 the FCDO added 38 entries under the Russia regime, including Zarubezhneft JSC (designated as a Government of Russia-affiliated energy company), Russian bank Commercial Bank \"Stolichny Kredit\", Kyrgyzstan-registered financial-services firms OJSC Processing KG, Tokenspot CJSC and Tsunami Payments LLC, suppliers based in China, Turkey and Canada, and twelve tankers carrying Russian-origin oil to third countries. The same notice varied the existing listings of Rostec and HeliCo Group. OFSI issued a wind-down general licence for Zarubezhneft and its subsidiaries (INT/2026/11080040), which expires at 23:59 on 21 November 2026.",
+      "whyItMatters": "Banks with exposure to Zarubezhneft or its subsidiaries have until 21 November 2026 to wind down under the OFSI licence; the Kyrgyz payment and token firms point to continuing use of Central Asian payment rails to move Russia-linked funds, which correspondent-banking teams should screen for.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-08",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia",
+      "confidence": "high",
+      "entities": [
+        "Zarubezhneft JSC",
+        "Commercial Bank \"Stolichny Kredit\" LLC",
+        "OJSC Processing KG",
+        "Tokenspot CJSC",
+        "Tsunami Payments LLC"
+      ],
+      "tags": [
+        "russia",
+        "energy",
+        "payments",
+        "shadow-fleet",
+        "general-licence",
+        "uk-sanctions-list"
+      ],
+      "sources": [
+        {
+          "name": "FCDO Sanctions Notice, Russia, 8 October 2026",
+          "url": "https://assets.publishing.service.gov.uk/media/6ac767c6e8ef5609e7c93369/Sanctions_Notice__Russia__8_October_2026.pdf",
+          "kind": "primary"
+        },
+        {
+          "name": "OFSI General Licence INT/2026/11080040 (Zarubezhneft wind down)",
+          "url": "https://assets.publishing.service.gov.uk/media/6ac77912b016250bca013a30/Zarubezhneft_Wind_Down_GL.pdf",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-iran-hostile-activity-designations-2026-10-12",
+      "regime": "UK",
+      "category": "action",
+      "title": "UK designates two individuals over Iranian state hostile activity",
+      "summary": "On 12 October 2026 the FCDO added two individuals under the Iran (Sanctions) Regulations 2023: Ruhollah Bazghandi, for planning or conducting espionage and attacks against persons and assets on behalf of the Government of Iran, and Shahram Ali Reza Tamarzadeh Jakki, for supporting attacks against persons in countries other than Iran.",
+      "whyItMatters": "Banks should add both individuals to screening under the UK's Iran hostile-activity regime.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-12",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran (hostile activity)",
+      "confidence": "high",
+      "entities": [
+        "Ruhollah Bazghandi",
+        "Shahram Ali Reza Tamarzadeh Jakki"
+      ],
+      "tags": [
+        "iran",
+        "designations",
+        "uk-sanctions-list"
+      ],
+      "sources": [
+        {
+          "name": "FCDO Sanctions Notice, Iran, 12 October 2026",
+          "url": "https://assets.publishing.service.gov.uk/media/6accd987f1ba855cc196ab02/Sanctions_Notice__Iran__12_October_2026.pdf",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-sudan-designations-2026-10-26",
+      "regime": "UK",
+      "category": "action",
+      "title": "UK designates 15 SAF and RSF commanders over atrocities in Sudan",
+      "summary": "On 26 October 2026 the FCDO designated 15 individuals under the Sudan regime, with asset freezes, travel bans and director disqualification. They include Sudanese Armed Forces officers and allied commanders linked to violence against civilians in Gezira State and Wad Madani (such as Major General Awad Al-Karim Ali Saeed and Abu Zaid Talha Al-Misbah of the Al-Baraa bin Malik Battalions), and Rapid Support Forces commanders linked to the takeover of El Fasher and Zamzam camp, including sexual violence (such as Abbas Khater Bakhit and Khademallah Khashmin Herika).",
+      "whyItMatters": "The round targets both sides of the conflict; banks with Sudan, Gulf or East Africa exposure should screen for all 15 names and their aliases.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-26",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Sudan",
+      "confidence": "high",
+      "entities": [
+        "Awad Al-Karim Ali Saeed",
+        "Abu Zaid Talha Al-Misbah",
+        "Hussein Abo Jalak",
+        "Abbas Khater Bakhit",
+        "Khademallah Khashmin Herika",
+        "Al-Nour Ahmed Adam",
+        "Ali Rizqallah"
+      ],
+      "tags": [
+        "sudan",
+        "rsf",
+        "saf",
+        "designations",
+        "uk-sanctions-list"
+      ],
+      "sources": [
+        {
+          "name": "FCDO Sanctions Notice, Sudan, 26 October 2026",
+          "url": "https://assets.publishing.service.gov.uk/media/6adf1d3cc818345ad8aca3f2/Sanctions_Notice__Sudan__26_October_2026.pdf",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-ghrihl-regime-2026-10-12",
+      "regime": "UK",
+      "category": "regulatory-update",
+      "title": "UK replaces its Global Human Rights regime with a wider human rights and IHL sanctions regime",
+      "summary": "The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 (S.I. 2026/1071) came into force on 15 October 2026. They establish a regime covering serious human rights violations by or on behalf of a State, serious violations of international humanitarian law, and obstruction of humanitarian assistance. The Regulations revoke the Global Human Rights Sanctions Regulations 2020 and include transitional provision for existing designations. A separate Order (S.I. 2026/1089) extends the regime to British overseas territories other than Bermuda and Gibraltar.",
+      "whyItMatters": "Screening systems and internal policies that reference the 2020 Global Human Rights regime by name need updating to the new regime, and the broader designation criteria (IHL violations, obstruction of aid) widen the pool of potential future designations.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-10-12",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Global Human Rights and International Humanitarian Law",
+      "confidence": "high",
+      "tags": [
+        "global-human-rights",
+        "international-humanitarian-law",
+        "statutory-instrument",
+        "new-regime"
+      ],
+      "sources": [
+        {
+          "name": "The Global Human Rights and International Humanitarian Law Sanctions Regulations 2026 (S.I. 2026/1071)",
+          "url": "https://www.legislation.gov.uk/uksi/2026/1071/made",
+          "kind": "primary"
+        },
+        {
+          "name": "The Global Human Rights and International Humanitarian Law Sanctions (Overseas Territories) Order 2026 (S.I. 2026/1089)",
+          "url": "https://www.legislation.gov.uk/uksi/2026/1089/made",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-ofsi-lukoil-bulgaria-extension-2026-10-28",
+      "regime": "UK",
+      "category": "action",
+      "title": "OFSI extends the Lukoil Bulgaria general licence to February 2027",
+      "summary": "On 28 October 2026 OFSI extended General Licence INT/2025/7895596, which permits continued business with Lukoil's Bulgarian entities, to 26 February 2027. According to the publication notice, the licence now covers Lukoil Bulgaria EOOD, Lukoil Neftochim Burgas AD, Lukoil Aviation Bulgaria EOOD and Lukoil Bunker Bulgaria EOOD.",
+      "whyItMatters": "Banks relying on this licence for Lukoil Bulgaria-related business have a new 26 February 2027 end date and should check that activity involving the aviation and bunkering subsidiaries falls within its terms.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-10-28",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia — Lukoil wind-down",
+      "confidence": "high",
+      "entities": [
+        "Lukoil Bulgaria EOOD",
+        "Lukoil Neftochim Burgas AD",
+        "Lukoil Aviation Bulgaria EOOD",
+        "Lukoil Bunker Bulgaria EOOD"
+      ],
+      "tags": [
+        "russia",
+        "lukoil",
+        "general-licence",
+        "ofsi"
+      ],
+      "sources": [
+        {
+          "name": "OFSI Publication Notice: INT/2025/7895596 (October 2026)",
+          "url": "https://assets.publishing.service.gov.uk/media/6ae1dcd2bdb574cf1c9b3efe/Publication_Notice_Lukoil_Bulgaria_INT.2025.7895596_October_2026.pdf",
+          "kind": "primary"
+        },
+        {
+          "name": "OFSI General Licences",
+          "url": "https://www.gov.uk/government/collections/ofsi-general-licences",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-ofsi-legal-services-gl-2026-10-26",
+      "regime": "UK",
+      "category": "regulatory-update",
+      "title": "OFSI issues a new Legal Services General Licence replacing INT/2026/9512597",
+      "summary": "On 26 October 2026 OFSI added Legal Services General Licence INT/2026/11112108, taking effect after the previous licence (INT/2026/9512597) expired on 28 October 2026. It lets UK law firms and counsel receive payment from designated persons for legal advice without a specific licence across most UK autonomous regimes. The main changes clarify the definition of Expenses, including payments to other legal professionals, and change the expenses cap wording from 10% of fees \"payable\" to 10% of fees \"paid\".",
+      "whyItMatters": "Banks processing legal-fee payments from frozen accounts under the general licence should update references to the new licence number and check the revised expenses terms.",
+      "nextStep": "monitor-only",
+      "date": "2026-10-26",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Multiple UK autonomous regimes",
+      "confidence": "high",
+      "tags": [
+        "ofsi",
+        "general-licence",
+        "legal-services"
+      ],
+      "sources": [
+        {
+          "name": "OFSI Publication Notice: INT/2026/11112108",
+          "url": "https://assets.publishing.service.gov.uk/media/6adf61abd798ae11e9bc5d05/INT.2026.11112108__PN.pdf",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uk-list-delistings-amendments-2026-10-27",
+      "regime": "UK",
+      "category": "action",
+      "title": "UK delists entries under ISIL/Al-Qaida, Iraq and Syria regimes, alongside routine amendments",
+      "summary": "Between 29 September and 3 November 2026 the UK Sanctions List change log recorded several removals and amendments: 1 revocation under the Syria regime (6 October), 1 delisting under the Iraq regime (7 October), 3 delistings and 3 variations under the ISIL (Da'esh) and Al-Qaida regime (27 October), 5 amendments under the Afghanistan regime (30 October), and a series of variations and corrections under the ISIL/Al-Qaida, Russia and Libya regimes. The change log gives counts only, not which entries were affected.",
+      "whyItMatters": "The delistings should be reflected in screening records so that former designees are no longer blocked; the amendments may change identifying details on existing matches.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-27",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "ISIL (Da'esh) and Al-Qaida; Iraq; Syria; Afghanistan",
+      "confidence": "medium",
+      "tags": [
+        "delisting",
+        "isil",
+        "al-qaida",
+        "syria",
+        "iraq",
+        "uk-sanctions-list"
+      ],
+      "sources": [
+        {
+          "name": "UK Sanctions List",
+          "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-bofa-enforcement-2026-10-13",
+      "regime": "US",
+      "category": "action",
+      "title": "Treasury imposes over $1.21bn in penalties on Bank of America, including an $11.6m OFAC settlement",
+      "summary": "On 13 October 2026 Treasury announced enforcement actions totalling more than $1.21 billion against Bank of America: a FinCEN penalty for failing to report and mitigate national-security risks, an OCC civil money penalty of $750 million for a deficient BSA/AML programme, and an OFAC settlement of $11,662,930 for apparent violations of sanctions programmes covering Russia, Belarus, Iran, Burma, Somalia, narcotics and global terrorism. OFAC said the bank routed correspondent payments through blocked banks, let designated individuals make payments and withdrawals because of poorly calibrated sanctions alerts, failed to update watchlists promptly after designations, and mishandled accounts linked to blocked persons. OFAC found the violations non-egregious and largely not voluntarily self-disclosed, and gave no reduction for remediation or cooperation.",
+      "whyItMatters": "The OFAC findings map directly onto common bank control gaps: alert calibration, watchlist update latency and correspondent payment routing. Compliance teams should test their own controls against each failure OFAC described.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-10-13",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Multiple (Russia, Belarus, Iran, Burma, Somalia, narcotics, terrorism)",
+      "confidence": "high",
+      "entities": [
+        "Bank of America, N.A."
+      ],
+      "tags": [
+        "enforcement",
+        "settlement",
+        "ofac",
+        "fincen",
+        "screening-controls"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: U.S. Treasury Announces Record Enforcement Actions Against Bank of America",
+          "url": "https://home.treasury.gov/news/press-releases/sb0657",
+          "kind": "primary"
+        },
+        {
+          "name": "OFAC Civil Penalties and Enforcement Information",
+          "url": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-ofac-iran-ffi-alert-2026-10-05",
+      "regime": "US",
+      "category": "regulatory-update",
+      "title": "OFAC warns foreign banks they can be sanctioned without notice for dealing with Iran",
+      "summary": "On 5 October 2026 OFAC published an alert, \"Notice to Foreign Financial Institutions Conducting Business with Iran\", stating that foreign financial institutions that continue to transact with sanctioned Iranian financial institutions could be targeted at any time without advance notification and should terminate such activity immediately. The alert cites earlier actions under Operation Economic Outcast, including severing US correspondent access for Banque Misr UAE (28 August), designating Türkiye-based Golden Global Bank (4 September) and designating VTB Bank (14 September), and points institutions to existing Treasury guidance on Iranian shadow-banking typologies.",
+      "whyItMatters": "This is an explicit secondary-sanctions warning to non-US banks; correspondent-banking teams should review respondent banks' exposure to Iranian banks and their third-country branches, and apply the shadow-banking typologies the alert references.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-10-05",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran — Operation Economic Outcast",
+      "confidence": "high",
+      "tags": [
+        "iran",
+        "secondary-sanctions",
+        "correspondent-banking",
+        "shadow-banking",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Alert: Notice to Foreign Financial Institutions Conducting Business with Iran",
+          "url": "https://ofac.treasury.gov/media/937091/download?inline",
+          "kind": "primary"
+        },
+        {
+          "name": "OFAC Recent Actions, 5 October 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20261005",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-a7-network-2026-10-01",
+      "regime": "US",
+      "category": "action",
+      "title": "Treasury designates the Russia-linked A7 shadow banking network and proposes cutting off its sub-agents",
+      "summary": "On 1 October 2026 Treasury took coordinated action against the A7 Network, a shadow banking network with ties to Russia that Iran has used to evade sanctions. OFAC designated the network as a significant transnational criminal organisation; FinCEN proposed a rule that would prohibit transmittals of funds involving the network's sub-agents, and issued an alert to help financial institutions detect related activity. Treasury said the sub-agents are third-country companies built to disguise sanctioned payments as ordinary commerce using falsified trade documents. The action builds on OFAC's August 2025 designation of A7 LLC and Old Vector LLC. The proposed rule's comment period closes 30 days after Federal Register publication.",
+      "whyItMatters": "If finalised, the FinCEN rule would bar US institutions from processing funds transfers involving A7 sub-agents; banks should apply the FinCEN alert's red flags now and consider commenting on the proposal.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-10-01",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia / Iran — Operation Economic Outcast",
+      "confidence": "high",
+      "entities": [
+        "A7 Network"
+      ],
+      "tags": [
+        "russia",
+        "iran",
+        "shadow-banking",
+        "fincen",
+        "proposed-rule",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Operation Economic Outcast Takes Unprecedented Action Against Sanctions Evasion Network Used by Iran",
+          "url": "https://home.treasury.gov/news/press-releases/sb0644",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-iran-bank-designations-2026-10-15",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC designates Iraqi, offshore Iranian and Cuban banks serving Iran",
+      "summary": "On 15 October 2026 OFAC designated Iraq-based International Development Bank for Investment and Finance, which Treasury said provided US dollar access to Iran and ties to Iran-aligned militias, along with Iranian offshore banks including Chabahar International Bank Overseas Company and Jazireh International Bank Company, plus exchange houses and individuals in Iran's shadow banking network. The State Department concurrently designated Cuba-based Banco Internacional de Comercio S.A. (BICSA), which Treasury said has served designated Iran-based Karafarin Bank since at least 2022. OFAC issued Iran General License FF to wind down transactions with the Iraqi bank, amended as FF-1 on 29 October.",
+      "whyItMatters": "Correspondent-banking teams should check for nested or direct exposure to the Iraqi, offshore Iranian and Cuban banks named, and use GL FF-1 only within its wind-down terms.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-15",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran — Operation Economic Outcast",
+      "confidence": "high",
+      "entities": [
+        "International Development Bank for Investment and Finance",
+        "Chabahar International Bank Overseas Company",
+        "Jazireh International Bank Company",
+        "Banco Internacional de Comercio S.A. (BICSA)",
+        "Bavi and Partners Exchange Company"
+      ],
+      "tags": [
+        "iran",
+        "iraq",
+        "cuba",
+        "banks",
+        "shadow-banking",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Operation Economic Outcast Targets Iran's International Financial Networks and Shadow Banking Architecture",
+          "url": "https://home.treasury.gov/news/press-releases/sb0660",
+          "kind": "primary"
+        },
+        {
+          "name": "OFAC Recent Actions, 15 October 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20261015",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-fincen-khums-alert-2026-10-15",
+      "regime": "US",
+      "category": "regulatory-update",
+      "title": "FinCEN alerts banks to Iranian abuse of religious charity networks and khums payments",
+      "summary": "On 15 October 2026 FinCEN issued an alert asking financial institutions to report potential Iranian regime abuse of religious charity networks, including diversion of religious tithes (khums), which Treasury said the regime uses to enrich elites, fund repression and support terrorism abroad.",
+      "whyItMatters": "Banks serving religious charities or diaspora communities with links to Iran or neighbouring countries should add the alert's indicators to transaction monitoring and SAR guidance.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-10-15",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran — Operation Economic Outcast",
+      "confidence": "high",
+      "tags": [
+        "iran",
+        "fincen",
+        "charities",
+        "typologies"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Operation Economic Outcast Targets Iranian Regime's Abuse of Religious Charity Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0661",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-iran-auto-rail-determination-2026-10-01",
+      "regime": "US",
+      "category": "regulatory-update",
+      "title": "OFAC extends Iran sectoral sanctions to the automotive and rail sectors",
+      "summary": "On 1 October 2026 OFAC published a determination under Executive Order 13902 covering the automotive and rail sectors of the Iranian economy, exposing persons operating in those sectors to sanctions, and designated Iranian industrial firms and foreign suppliers including Heavy Equipment Production Company (HEPCO) and HEPCO Shanghai Co. Treasury said the automotive sector is intertwined with IRGC patronage networks, trade-based money laundering and the use of prison labour.",
+      "whyItMatters": "Trade-finance teams should treat Iranian automotive and rail sector counterparties and their foreign suppliers as sanctionable under E.O. 13902 going forward.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-10-01",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran — E.O. 13902 sectoral",
+      "confidence": "high",
+      "entities": [
+        "Heavy Equipment Production Company (HEPCO)",
+        "HEPCO Shanghai Co."
+      ],
+      "tags": [
+        "iran",
+        "sectoral-determination",
+        "automotive",
+        "rail",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Operation Economic Outcast Targets Iran's Remaining Industrial Lifelines",
+          "url": "https://home.treasury.gov/news/press-releases/sb0643",
+          "kind": "primary"
+        },
+        {
+          "name": "OFAC Recent Actions, 1 October 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20261001",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-iran-shadow-fleet-2026-10-21",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC targets Iran's remaining shadow fleet, including a Panama- and Greece-based law firm",
+      "summary": "In two rounds on 8 and 21 October 2026, OFAC designated ship managers, shipping companies and tankers in what Treasury described as the vast majority of Iran's remaining shadow fleet. The 21 October round included Panama- and Greece-based law firm Karnakis and Karnakis, which Treasury said supported illicit Iranian shipping for years, together with Roxette Maritime Shipping and Trading S.A. and Whales Shipping Line LLC. OFAC issued wind-down general licences for India-based Samudra Marine Services (GL EE) and for certain persons and vessels blocked on 21 October (GL HH).",
+      "whyItMatters": "Designating a law firm extends shadow-fleet risk to professional service providers; trade-finance and maritime-lending teams should rescreen ship managers, vessels and service providers in their Iran-adjacent maritime exposure.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-21",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Iran — Operation Economic Outcast",
+      "confidence": "high",
+      "entities": [
+        "Karnakis and Karnakis",
+        "Roxette Maritime Shipping and Trading S.A.",
+        "Whales Shipping Line LLC",
+        "Samudra Marine Services Private Limited"
+      ],
+      "tags": [
+        "iran",
+        "shadow-fleet",
+        "shipping",
+        "operation-economic-outcast"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Operation Economic Outcast Targets Iran's Shadow Fleet Networks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0664",
+          "kind": "primary"
+        },
+        {
+          "name": "US Treasury: Operation Economic Outcast Neutralizes Iranian Regime's Remaining Shadow Fleet Network",
+          "url": "https://home.treasury.gov/news/press-releases/sb0653",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-ofac-modernization-round3-2026-10-05",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC removes 125 SDN entries in third modernization round",
+      "summary": "On 5 October 2026 OFAC completed the third round of its sanctions-list modernization initiative, removing 125 individuals and entities, including deceased individuals, defunct companies and entries lacking enough information for reliable screening, and updating 22 list entries to improve screening.",
+      "whyItMatters": "Screening teams should reconcile watchlists against the removals and updated entries to clear stale alerts and confirm no current relationships were blocked on superseded data.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-05",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "OFAC list maintenance",
+      "confidence": "high",
+      "tags": [
+        "ofac",
+        "delisting",
+        "sdn",
+        "list-maintenance"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Treasury Announces Third Round of Sanctions Removals, Updates in Modernization Initiative",
+          "url": "https://home.treasury.gov/news/press-releases/sb0650",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-sanctions-penalties-regulations-2026-09-24",
+      "regime": "US",
+      "category": "regulatory-update",
+      "title": "OFAC consolidates enforcement and penalty rules into new Sanctions Penalties Regulations",
+      "summary": "On 24 September 2026 OFAC published a new part of 31 CFR chapter V, the Sanctions Penalties Regulations, consolidating enforcement procedures and penalty information, including the rights of US persons under investigation, that previously sat in individual programme regulations; more than 100 subparts will be replaced by cross-references. OFAC also amended the Terrorism List Governments Sanctions Regulations to reflect the rescission of Syria's State Sponsor of Terrorism designation, removing a Syria-specific general licence.",
+      "whyItMatters": "Compliance manuals and policies that cite penalty provisions in individual programme regulations should be updated to reference the consolidated Sanctions Penalties Regulations.",
+      "nextStep": "monitor-only",
+      "date": "2026-09-24",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "OFAC regulations (all programmes)",
+      "confidence": "high",
+      "tags": [
+        "ofac",
+        "regulations",
+        "enforcement",
+        "syria"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions, 24 September 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20260924",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-ofac-lukoil-gls-2026-10-21",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC renews Lukoil general licences for retail stations, Bulgaria and the Lukoil International sale",
+      "summary": "On 15 October 2026 OFAC issued Russia-related General License 128D (transactions involving Lukoil retail service stations outside Russia) and 130B (transactions involving certain Lukoil entities in Bulgaria). On 21 October it issued General License 131K, the next version of the licence authorising negotiation of and entry into contingent contracts for the sale of Lukoil International GmbH, with amended FAQs 1224 and 1225.",
+      "whyItMatters": "Banks relying on earlier versions of these licences (including 131J, issued 18 September) should update to the current versions and check their terms before processing Lukoil-related transactions.",
+      "nextStep": "assess-framework-impact",
+      "date": "2026-10-21",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia — Lukoil",
+      "confidence": "high",
+      "tags": [
+        "russia",
+        "lukoil",
+        "general-licence"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions, 15 October 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20261015",
+          "kind": "primary"
+        },
+        {
+          "name": "OFAC Recent Actions, 21 October 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20261021",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-rwanda-mod-zigama-2026-10-28",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC sanctions Rwanda's Ministry of Defence and Zigama Credit and Savings Society over M23 support",
+      "summary": "On 28 October 2026 OFAC sanctioned Rwanda's Ministry of Defence and Zigama Credit and Savings Society, a Rwandan financial institution that Treasury said played a key role in facilitating Rwanda's support for the M23 armed group in eastern Democratic Republic of the Congo and its political wing, the Congo River Alliance. Treasury framed the action as holding Rwanda to its commitments under the Washington Accords for Peace and Prosperity.",
+      "whyItMatters": "Designating a state ministry and a domestic financial institution raises exposure for banks with East African correspondent or trade-finance relationships; teams should check for direct and nested exposure to Zigama.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-28",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Democratic Republic of the Congo",
+      "confidence": "high",
+      "entities": [
+        "Rwanda Ministry of Defence",
+        "Zigama Credit and Savings Society"
+      ],
+      "tags": [
+        "drc",
+        "rwanda",
+        "m23",
+        "financial-institution"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
+          "url": "https://home.treasury.gov/news/press-releases/sb0668",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-paipa-designations-2026-10-19",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC makes designations under the Protecting American Intellectual Property Act",
+      "summary": "On 19 October 2026 OFAC added Beijing-based venture capital vehicles associated with Qiji Chuangtan (MiraclePlus), including Qiji Chuangtan Beijing Investment Management Co Ltd and its Phase I and Phase II funds, together with Shanghai Zhisuan Technology Co Ltd, to its Non-SDN Menu-Based Sanctions List under the Protecting American Intellectual Property Act of 2022. The listed measures include blocking of property (except for imports of goods) and a cap on loans from US financial institutions. OFAC issued PAIPA General Licenses 1 and 2, the latter authorising wind-down of transactions with the listed entities. OFAC's action notice does not state the grounds for the listings.",
+      "whyItMatters": "The PAIPA measures appear on the Non-SDN Menu-Based list, not the SDN List; banks need that list in screening to catch these entities, and should check the US-lender loan cap for any credit exposure.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-19",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Protecting American Intellectual Property Act (PAIPA)",
+      "confidence": "medium",
+      "entities": [
+        "Qiji Chuangtan Beijing Investment Management Co Ltd",
+        "Beijing Qiji Chuangtan Phase I Venture Capital Center LP",
+        "Beijing Qiji Chuangtan Phase II Venture Capital Center LP",
+        "Shanghai Zhisuan Technology Co Ltd"
+      ],
+      "tags": [
+        "paipa",
+        "china",
+        "intellectual-property",
+        "non-sdn-list"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions, 19 October 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20261019",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-tren-de-aragua-bank-fraud-2026-09-30",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC designates Tren de Aragua fraud network that stole millions from US banks",
+      "summary": "On 30 September 2026 OFAC designated 10 targets involved in a Tren de Aragua fraud scheme that Treasury said stole millions from US banks and has become a key revenue source for the group, a designated Foreign Terrorist Organization. The scheme is led by Anibal Alexander Canelon Aguirre (\"Prometheus\"), one of the FBI's ten most-wanted fugitives; OFAC also designated senior leader Juan Gabriel Rivas Nunez (\"Juancho\").",
+      "whyItMatters": "Fraud-prevention and sanctions teams should connect: losses from this scheme fall on US banks, and the designations make any funds traced to the network blocked property.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-09-30",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Counter-terrorism / Transnational criminal organisations",
+      "confidence": "high",
+      "entities": [
+        "Anibal Alexander Canelon Aguirre",
+        "Juan Gabriel Rivas Nunez"
+      ],
+      "tags": [
+        "tren-de-aragua",
+        "fraud",
+        "fto",
+        "counter-terrorism"
+      ],
+      "sources": [
+        {
+          "name": "US Treasury: Treasury Sanctions Financial Network of Foreign Terrorist Organization, Tren de Aragua, After Theft of Millions from U.S. Banks",
+          "url": "https://home.treasury.gov/news/press-releases/sb0640",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-ofac-settlements-extreme-pegasus-2026-10-27",
+      "regime": "US",
+      "category": "action",
+      "title": "OFAC settles with Extreme Networks ($1.53m) and Pegasus Worldwide Logistics ($175k)",
+      "summary": "On 27 October 2026 OFAC announced a $1,529,685 settlement with Extreme Networks, Inc., which exported networking equipment and services on nine occasions between 2018 and 2022 to a Russian defence manufacturer blocked by operation of law as majority-owned by designated JSC Concern Almaz Antey; OFAC found the violations egregious but voluntarily self-disclosed. On 9 October OFAC settled with freight forwarder Pegasus Worldwide Logistics for $175,015 over dealing in blocked property under the Illicit Drug Trafficking Sanctions Regulations and failing for six months to respond fully to an OFAC subpoena.",
+      "whyItMatters": "Extreme Networks shows how 50%-ownership blocking catches unlisted subsidiaries; Pegasus shows that a slow or incomplete response to an OFAC subpoena is itself a penalised violation.",
+      "nextStep": "monitor-only",
+      "date": "2026-10-27",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia; narcotics",
+      "confidence": "high",
+      "entities": [
+        "Extreme Networks, Inc.",
+        "Pegasus Worldwide Logistics"
+      ],
+      "tags": [
+        "enforcement",
+        "settlement",
+        "russia",
+        "ownership",
+        "ofac"
+      ],
+      "sources": [
+        {
+          "name": "OFAC Recent Actions, 27 October 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20261027",
+          "kind": "primary"
+        },
+        {
+          "name": "OFAC Recent Actions, 9 October 2026",
+          "url": "https://ofac.treasury.gov/recent-actions/20261009",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "eu-russia-milind-1569-listings-2026-10-12",
+      "regime": "EU",
+      "category": "action",
+      "title": "EU adopts its largest-ever listings package against Russia: 1,569 companies and CEOs",
+      "summary": "On 12 October 2026 the Council of the EU listed 1,569 individuals and entities in Russia's military-industrial complex, 826 companies and 743 individuals serving as their chief executives, under the regime protecting Ukraine's territorial integrity. The Commission said it is the single largest set of EU listings ever, bringing the regime close to 4,600 listings. The targets are mid-level suppliers of components for missiles, UAVs and aircraft, including semiconductors, radars, satellite systems, explosives and navigation systems, with combined annual turnover of at least €20 billion.",
+      "whyItMatters": "The volume and the focus on lesser-known component suppliers mean screening lists need a full refresh, and trade-finance teams should expect more true matches among Russian industrial counterparties.",
+      "nextStep": "review-screening-lists",
+      "date": "2026-10-12",
+      "addedAt": "2026-11-04",
+      "addedBy": "agent",
+      "status": "published",
+      "programme": "Russia/Ukraine — territorial integrity",
+      "confidence": "high",
+      "tags": [
+        "russia",
+        "military-industrial-complex",
+        "eu-sanctions",
+        "listings"
+      ],
+      "sources": [
+        {
+          "name": "European Commission: EU adopts largest-ever package of listings against Russia",
+          "url": "https://finance.ec.europa.eu/news/eu-adopts-largest-ever-package-listings-against-russia-2026-10-12_en",
           "kind": "primary"
         }
       ]
