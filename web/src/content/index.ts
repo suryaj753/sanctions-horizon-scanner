@@ -1,6 +1,6 @@
 import { ITEMS } from "./items";
 import feedData from "./feed.json";
-import type { Item } from "./types";
+import type { CoverageEntry, Item } from "./types";
 
 // Two sources, one list:
 //   ITEMS    — hand-seeded baseline (items.ts)
@@ -9,6 +9,10 @@ import type { Item } from "./types";
 // Keeping the agent's output in plain JSON means it appends safely and
 // provenance stays clean. Views consume ALL_ITEMS.
 export const FEED = feedData.items as unknown as Item[];
+
+// Per-source record of the latest ingest check, so "nothing new" is never
+// mistaken for "nothing happened" when a source couldn't be read.
+export const COVERAGE = feedData.coverage as CoverageEntry[];
 
 // De-duplicate the merged list by id. ITEMS come first, so a curated
 // (verified) copy wins over an agent duplicate.

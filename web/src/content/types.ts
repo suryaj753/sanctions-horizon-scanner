@@ -60,3 +60,18 @@ export interface Item {
   tags: string[];
   sources: Source[];
 }
+
+export type CoverageStatus = "checked" | "partial" | "unreachable";
+
+/** One registry source's most recent check. feed.json keeps one entry per source in agent/sources.ts. */
+export interface CoverageEntry {
+  /** The source's `id` in agent/sources.ts. */
+  sourceId: string;
+  name: string;
+  regime: Regime;
+  /** When this source was last checked (ISO yyyy-mm-dd). */
+  checkedAt: string;
+  status: CoverageStatus;
+  /** Required unless status is "checked": the one-line reason. */
+  note?: string;
+}

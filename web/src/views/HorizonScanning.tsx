@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { ChevronLeft, List, ShieldAlert, Gavel } from "lucide-react";
-import type { Item, Regime } from "../content/types";
+import type { CoverageEntry, Item, Regime } from "../content/types";
 import { REGIME_META, CATEGORY_META } from "../content/taxonomy";
 import { PageHeader } from "../components/PageHeader";
 import { ItemList } from "../components/ItemList";
 import { ItemDetail } from "../components/ItemDetail";
 import { Panel, Stat, SectionHeading, EmptyState } from "../lib/ui";
 import { CategoryMix } from "../components/viz";
+import { CoverageButton, CoveragePanel } from "../components/Coverage";
 import { cn } from "../lib/utils";
 
 const REGIMES: Regime[] = ["UK", "US", "EU", "UN"];
@@ -14,11 +15,12 @@ const REGIMES: Regime[] = ["UK", "US", "EU", "UN"];
 // The only page in the app: stat cards + category mix, then a master-detail
 // split — a filterable list of every tracked item on the left, the full
 // detail of whichever one is selected on the right.
-export function HorizonScanning({ items }: { items: Item[] }) {
+export function HorizonScanning({ items, coverage }: { items: Item[]; coverage: CoverageEntry[] }) {
   const all = items.filter((i) => i.status === "published").sort((a, b) => (a.date < b.date ? 1 : -1));
   const [regimeFilter, setRegimeFilter] = useState<Regime | "all">("all");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [mobileShowDetail, setMobileShowDetail] = useState(false);
+  const [coverageOpen, setCoverageOpen] = useState(false);
 
   const shown = regimeFilter === "all" ? all : all.filter((i) => i.regime === regimeFilter);
   // Default to the most recent item in view until the reader picks one
@@ -37,11 +39,16 @@ export function HorizonScanning({ items }: { items: Item[] }) {
         title="Horizon Scanning"
         subtitle="Every tracked development across UK, US, EU and UN sanctions regimes, newest first."
         right={
-          <span className="text-xs text-neutral-500 tabular-nums">
-            {shown.length} item{shown.length === 1 ? "" : "s"}
-          </span>
+          <div className="flex flex-col items-start sm:items-end gap-1.5">
+            <span className="text-xs text-neutral-500 tabular-nums">
+              {shown.length} item{shown.length === 1 ? "" : "s"}
+            </span>
+            <CoverageButton coverage={coverage} open={coverageOpen} onToggle={() => setCoverageOpen((o) => !o)} />
+          </div>
         }
       />
+
+      {coverageOpen && <CoveragePanel coverage={coverage} />}
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
         <Stat Icon={List} tone="brand" label="Tracked" value={all.length} />

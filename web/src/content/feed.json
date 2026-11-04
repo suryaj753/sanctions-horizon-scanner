@@ -1,5 +1,179 @@
 {
   "lastUpdated": "2026-11-04",
+  "coverage": [
+    {
+      "sourceId": "uk-sanctions-list",
+      "name": "UK Sanctions List",
+      "regime": "UK",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "uk-regimes",
+      "name": "Current UK sanctions regimes",
+      "regime": "UK",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "uk-ofsi-general-licences",
+      "name": "OFSI General Licences",
+      "regime": "UK",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "uk-enforcement",
+      "name": "OFSI enforcement collection",
+      "regime": "UK",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "uk-ofsi-blog",
+      "name": "OFSI blog",
+      "regime": "UK",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "uk-otsi-blog",
+      "name": "OTSI blog",
+      "regime": "UK",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "uk-legislation",
+      "name": "UK legislation database — sanctions SIs",
+      "regime": "UK",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "uk-otsi-implementation",
+      "name": "OTSI implementation",
+      "regime": "UK",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "us-ofac-sls",
+      "name": "OFAC Sanctions List Service",
+      "regime": "US",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "us-ofac-recent-actions",
+      "name": "OFAC Recent Actions",
+      "regime": "US",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "us-ofac-programs",
+      "name": "OFAC Sanctions Programs and Country Information",
+      "regime": "US",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "us-ofac-enforcement",
+      "name": "OFAC enforcement",
+      "regime": "US",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "us-ofac-general-licences",
+      "name": "OFAC General Licences",
+      "regime": "US",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "us-treasury-press",
+      "name": "US Treasury press releases",
+      "regime": "US",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "us-white-house",
+      "name": "White House presidential actions",
+      "regime": "US",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "eu-eurlex",
+      "name": "EUR-Lex — restrictive measures",
+      "regime": "EU",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "eu-fsd",
+      "name": "EU Financial Sanctions Database",
+      "regime": "EU",
+      "checkedAt": "2026-11-04",
+      "status": "unreachable",
+      "note": "Search UI and the static full-list files route both redirect to EU Login; no credentials used."
+    },
+    {
+      "sourceId": "eu-commission",
+      "name": "European Commission sanctions pages",
+      "regime": "EU",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "eu-council",
+      "name": "Council of the EU sanctions pages",
+      "regime": "EU",
+      "checkedAt": "2026-11-04",
+      "status": "unreachable",
+      "note": "403 bot challenge (\"Checking your browser\") even in a headless browser; EU listings rely on Commission news only."
+    },
+    {
+      "sourceId": "eu-cjeu",
+      "name": "Court of Justice of the European Union",
+      "regime": "EU",
+      "checkedAt": "2026-11-04",
+      "status": "unreachable",
+      "note": "403 \"site temporarily unavailable\" page on InfoCuria and curia press pages."
+    },
+    {
+      "sourceId": "un-consolidated-list",
+      "name": "UN Consolidated List",
+      "regime": "UN",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "un-list-updates",
+      "name": "UN list-update log",
+      "regime": "UN",
+      "checkedAt": "2026-11-04",
+      "status": "partial",
+      "note": "Log read (reference codes only); press.un.org releases naming the entries are behind a CAPTCHA."
+    },
+    {
+      "sourceId": "un-committees",
+      "name": "UN Sanctions Committees",
+      "regime": "UN",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    },
+    {
+      "sourceId": "un-resolutions",
+      "name": "UN Security Council resolutions",
+      "regime": "UN",
+      "checkedAt": "2026-11-04",
+      "status": "checked"
+    }
+  ],
   "items": [
     {
       "id": "uk-russia-designations-2026-08-06",

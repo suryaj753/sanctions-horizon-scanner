@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { weeklyDigest } from "./digest";
-import type { Item } from "../content/types";
+import type { CoverageEntry, Item } from "../content/types";
 
 const now = new Date("2026-06-07T00:00:00");
 
@@ -53,5 +53,22 @@ describe("weeklyDigest", () => {
 
   it("handles a quiet week", () => {
     expect(weeklyDigest([stale], now)).toContain("No new items surfaced this week.");
+  });
+
+  it("names sources that were not fully checked, even in a quiet week", () => {
+    const coverage: CoverageEntry[] = [
+      { sourceId: "uk-sanctions-list", name: "UK Sanctions List", regime: "UK", checkedAt: "2026-06-06", status: "checked" },
+      { sourceId: "eu-council", name: "Council of the EU sanctions pages", regime: "EU", checkedAt: "2026-06-06", status: "unreachable", note: "403" },
+    ];
+    const md = weeklyDigest([stale], now, coverage);
+    expect(md).toContain("**Not fully checked this run:** Council of the EU sanctions pages (unreachable, 6 June 2026).");
+    expect(md).toContain("No new items surfaced this week.");
+  });
+
+  it("states full coverage when every source was checked", () => {
+    const coverage: CoverageEntry[] = [
+      { sourceId: "uk-sanctions-list", name: "UK Sanctions List", regime: "UK", checkedAt: "2026-06-06", status: "checked" },
+    ];
+    expect(weeklyDigest([fresh], now, coverage)).toContain("**Coverage:** all 1 source checked.");
   });
 });

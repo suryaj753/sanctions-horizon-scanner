@@ -19,7 +19,7 @@ export function PageHeader({
   right?: ReactNode;
 }) {
   return (
-    <div className="flex items-center justify-between gap-4">
+    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4">
       <div className="flex items-center gap-3.5 min-w-0">
         {Icon && <IconTile Icon={Icon} tone="brand" size="lg" />}
         <div className="min-w-0">

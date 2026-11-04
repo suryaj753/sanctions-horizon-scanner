@@ -1,4 +1,4 @@
-import type { Item, Regime } from "../content/types";
+import type { CoverageEntry, Item, Regime } from "../content/types";
 import { REGIME_META, CATEGORY_META } from "../content/taxonomy";
 import { longDate } from "./utils";
 
@@ -13,7 +13,16 @@ function byNotable(a: Item, b: Item): number {
   return a.addedAt < b.addedAt ? 1 : -1;
 }
 
-export function weeklyDigest(items: Item[], now = new Date()): string {
+// One line on source coverage, shown even in a quiet week: an absence of
+// news only means something if the sources were actually read.
+export function coverageLine(coverage: CoverageEntry[]): string {
+  const gaps = coverage.filter((c) => c.status !== "checked");
+  if (gaps.length === 0) return `**Coverage:** all ${coverage.length} source${coverage.length === 1 ? "" : "s"} checked.`;
+  const list = gaps.map((c) => `${c.name} (${c.status}, ${longDate(c.checkedAt)})`).join("; ");
+  return `**Not fully checked this run:** ${list}.`;
+}
+
+export function weeklyDigest(items: Item[], now = new Date(), coverage?: CoverageEntry[]): string {
   const weekAgo = now.getTime() - 7 * 86_400_000;
   const pub = items.filter((i) => i.status === "published");
   const fresh = pub.filter((i) => new Date(i.addedAt + "T00:00:00").getTime() >= weekAgo);
@@ -23,6 +32,7 @@ export function weeklyDigest(items: Item[], now = new Date()): string {
     "",
     `_${fresh.length} new item${fresh.length === 1 ? "" : "s"} in the last 7 days · Horizon · sanctions intelligence_`,
   ];
+  if (coverage?.length) lines.push("", coverageLine(coverage));
 
   if (fresh.length === 0) {
     lines.push("", "_No new items surfaced this week._");

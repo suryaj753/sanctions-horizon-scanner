@@ -14,6 +14,8 @@
 import type { Regime, SourceType } from "../web/src/content/types";
 
 export interface SourceDef {
+  /** Stable slug, used as `sourceId` in feed.json's coverage record. Never rename. */
+  id: string;
   name: string;
   url: string;
   regime: Regime;
@@ -29,6 +31,7 @@ export interface SourceDef {
 export const SOURCES: SourceDef[] = [
   // --- UK ---
   {
+    id: "uk-sanctions-list",
     name: "UK Sanctions List",
     url: "https://www.gov.uk/government/publications/the-uk-sanctions-list",
     regime: "UK",
@@ -37,6 +40,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Designations, amendments and delistings across every UK sanctions regime.",
   },
   {
+    id: "uk-regimes",
     name: "Current UK sanctions regimes",
     url: "https://www.gov.uk/government/collections/uk-sanctions-regimes-under-the-sanctions-act",
     regime: "UK",
@@ -45,6 +49,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Regime-specific legislation, statutory guidance and notices, by country/theme.",
   },
   {
+    id: "uk-ofsi-general-licences",
     name: "OFSI General Licences",
     url: "https://www.gov.uk/government/collections/ofsi-general-licences",
     regime: "UK",
@@ -53,6 +58,7 @@ export const SOURCES: SourceDef[] = [
     focus: "New, amended, revoked and expired general licences.",
   },
   {
+    id: "uk-enforcement",
     name: "OFSI enforcement collection",
     url: "https://www.gov.uk/government/collections/sanctions-enforcement-action",
     regime: "UK",
@@ -62,6 +68,7 @@ export const SOURCES: SourceDef[] = [
     notes: "Combines OFSI, NCA, OTSI and HMRC enforcement action, not OFSI alone.",
   },
   {
+    id: "uk-ofsi-blog",
     name: "OFSI blog",
     url: "https://ofsi.blog.gov.uk/",
     regime: "UK",
@@ -70,6 +77,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Regulatory thinking, supervisory expectations, implementation guidance, lessons learned, emerging focus areas not yet in formal legislation.",
   },
   {
+    id: "uk-otsi-blog",
     name: "OTSI blog",
     url: "https://otsi.blog.gov.uk/",
     regime: "UK",
@@ -79,6 +87,7 @@ export const SOURCES: SourceDef[] = [
     notes: "OFSI and OTSI run separate blogs, not a shared one — the original brief treats these as one bullet; both are listed here.",
   },
   {
+    id: "uk-legislation",
     name: "UK legislation database — sanctions SIs",
     url: "https://www.legislation.gov.uk/uksi?title=sanctions",
     regime: "UK",
@@ -87,6 +96,7 @@ export const SOURCES: SourceDef[] = [
     focus: "New sanctions regulations, amendments, statutory instruments, commencement dates, changes to prohibitions, reporting obligations, exceptions, licensing provisions.",
   },
   {
+    id: "uk-otsi-implementation",
     name: "OTSI implementation",
     url: "https://www.gov.uk/government/organisations/office-of-trade-sanctions-implementation",
     regime: "UK",
@@ -98,6 +108,7 @@ export const SOURCES: SourceDef[] = [
 
   // --- US ---
   {
+    id: "us-ofac-sls",
     name: "OFAC Sanctions List Service",
     url: "https://ofac.treasury.gov/sanctions-list-service",
     regime: "US",
@@ -106,6 +117,7 @@ export const SOURCES: SourceDef[] = [
     focus: "SDN and non-SDN list data and downloads.",
   },
   {
+    id: "us-ofac-recent-actions",
     name: "OFAC Recent Actions",
     url: "https://ofac.treasury.gov/recent-actions",
     regime: "US",
@@ -114,6 +126,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Designations, licences, guidance and regulatory changes as they're published.",
   },
   {
+    id: "us-ofac-programs",
     name: "OFAC Sanctions Programs and Country Information",
     url: "https://ofac.treasury.gov/sanctions-programs-and-country-information",
     regime: "US",
@@ -122,6 +135,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Programme-specific legal and guidance material.",
   },
   {
+    id: "us-ofac-enforcement",
     name: "OFAC enforcement",
     url: "https://ofac.treasury.gov/civil-penalties-and-enforcement-information",
     regime: "US",
@@ -130,6 +144,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Enforcement actions and compliance lessons.",
   },
   {
+    id: "us-ofac-general-licences",
     name: "OFAC General Licences",
     url: "https://ofac.treasury.gov/recent-actions/general-licenses",
     regime: "US",
@@ -139,6 +154,7 @@ export const SOURCES: SourceDef[] = [
     notes: "Client-rendered route — needs JS execution or a browser-pane fetch, a plain HTTP GET will not return the list.",
   },
   {
+    id: "us-treasury-press",
     name: "US Treasury press releases",
     url: "https://home.treasury.gov/news/press-releases",
     regime: "US",
@@ -147,6 +163,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Sanctions announcements, new designations, delistings, enforcement actions, guidance updates, FAQs, policy interpretations.",
   },
   {
+    id: "us-white-house",
     name: "White House presidential actions",
     url: "https://www.whitehouse.gov/presidential-actions/",
     regime: "US",
@@ -157,6 +174,7 @@ export const SOURCES: SourceDef[] = [
 
   // --- EU ---
   {
+    id: "eu-eurlex",
     name: "EUR-Lex — restrictive measures",
     url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=LEGISSUM:restrictive_measures",
     regime: "EU",
@@ -166,15 +184,17 @@ export const SOURCES: SourceDef[] = [
     notes: "A summary/topic entry point that links onward to individual instruments, not a live query for newest changes. Blocks plain automated fetches without a browser-like User-Agent.",
   },
   {
+    id: "eu-fsd",
     name: "EU Financial Sanctions Database",
     url: "https://webgate.ec.europa.eu/fsd/fsf",
     regime: "EU",
     sourceType: "primary-list",
     cadence: "event",
     focus: "Consolidated asset-freeze designations.",
-    notes: "The interactive search UI now requires an EU Login (ECAS) account; the static full-list file download works unauthenticated. Maintained by DG FISMA.",
+    notes: "Both the interactive search UI and the static full-list files route (fsd/fsf#!/files, linked from the Commission's sanctions resources page) now redirect to EU Login (ECAS); re-verified 4 Nov 2026. Maintained by DG FISMA.",
   },
   {
+    id: "eu-commission",
     name: "European Commission sanctions pages",
     url: "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures_en",
     regime: "EU",
@@ -183,6 +203,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Guidance, FAQs, implementation material.",
   },
   {
+    id: "eu-council",
     name: "Council of the EU sanctions pages",
     url: "https://www.consilium.europa.eu/en/press/press-releases/",
     regime: "EU",
@@ -192,6 +213,7 @@ export const SOURCES: SourceDef[] = [
     notes: "Blocks plain automated fetches behind a browser check; needs a browser-like client.",
   },
   {
+    id: "eu-cjeu",
     name: "Court of Justice of the European Union",
     url: "https://curia.europa.eu/juris/recherche.jsf?language=en",
     regime: "EU",
@@ -203,6 +225,7 @@ export const SOURCES: SourceDef[] = [
 
   // --- UN ---
   {
+    id: "un-consolidated-list",
     name: "UN Consolidated List",
     url: "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
     regime: "UN",
@@ -211,6 +234,7 @@ export const SOURCES: SourceDef[] = [
     focus: "All current UN designations.",
   },
   {
+    id: "un-list-updates",
     name: "UN list-update log",
     url: "https://main.un.org/securitycouncil/en/content/list-updates-unsc-consolidated-list",
     regime: "UN",
@@ -219,6 +243,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Listings, amendments and delistings.",
   },
   {
+    id: "un-committees",
     name: "UN Sanctions Committees",
     url: "https://main.un.org/securitycouncil/en/sanctions/information",
     regime: "UN",
@@ -227,6 +252,7 @@ export const SOURCES: SourceDef[] = [
     focus: "Regime-specific measures, guidance and notices.",
   },
   {
+    id: "un-resolutions",
     name: "UN Security Council resolutions",
     url: "https://main.un.org/securitycouncil/en/content/resolutions-0",
     regime: "UN",
